@@ -7,7 +7,7 @@ python -c 'import covid; covid.get_pmids()'
 
 # differences (change date to last time you ran the pipeline)
 # JOSPEH'S NOTE: change the name of the data.03012021 to the lastest date (data.?????)
-diff --new-line-format="" --unchanged-line-format="" data/ids/all_pmids.txt data.03012021/ids/all_pmids.txt > data/ids/pmids.txt
+diff --new-line-format="" --unchanged-line-format="" data/ids/all_pmids.txt data.05012021/ids/all_pmids.txt > data/ids/pmids.txt
 
 
 # for PMC, use the pmcods_to_txt() from covid.py

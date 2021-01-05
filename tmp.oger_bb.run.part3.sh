@@ -3,7 +3,12 @@
 # 3: RUNNING BIOBERT
 ####################
 
-# JOSEPH'S NOTE: 1. install tensorflow this is not mentioned in the requirments
+# JOSEPH'S NOTE: 1. install tensorflow (1.15.0) this is not mentioned in the requirments
+#                2. the ./biobert/modeling.py and ./biobert/tokenization.py file is missing
+#                   I downloaded it from /srv/scratch1/furrer/OGER+BioBERT-inference/biobert
+#                3. install keras (2.3.1) this is not mentioned in the requirments
+#                4. the ./biobert/commmon folder is missing
+#                   I downloaded it from /srv/scratch1/furrer/OGER+BioBERT-inference/biobert
 
 
 home=$(pwd) # added by JOSEPH
