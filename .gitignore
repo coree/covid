@@ -12,5 +12,7 @@ data*
 run_bb_*.sh
 biobert
 oger
+models/
+
 
 create-eupmc-anno.md

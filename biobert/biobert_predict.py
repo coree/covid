@@ -15,9 +15,6 @@ from tensorflow.python.ops import math_ops
 import modeling
 import tokenization
 
-import tf_threads
-del tf_threads
-
 
 
 # ----------------------------- FLAGS ------------------------------------------
