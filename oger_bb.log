@@ -1,0 +1,2232 @@
+BB for GO_CC-ids
+WARNING:tensorflow:From biobert_predict.py:519: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0608 15:43:45.044029 140152484665152 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0608 15:43:45.044219 140152484665152 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0608 15:43:45.044909 140152484665152 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0608 15:43:45.045707 140152484665152 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7f7629630bf8>) includes params argument, but params are not passed to Estimator.
+W0608 15:43:45.639477 140152484665152 estimator.py:1994] Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7f7629630bf8>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Using config: {'_model_dir': 'models/GO_CC-ids', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f76261890b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+I0608 15:43:45.641844 140152484665152 estimator.py:212] Using config: {'_model_dir': 'models/GO_CC-ids', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f76261890b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+INFO:tensorflow:_TPUContext: eval_on_tpu True
+I0608 15:43:45.642563 140152484665152 tpu_context.py:220] _TPUContext: eval_on_tpu True
+WARNING:tensorflow:eval_on_tpu ignored because use_tpu is False.
+W0608 15:43:45.643058 140152484665152 tpu_context.py:222] eval_on_tpu ignored because use_tpu is False.
+WARNING:tensorflow:From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0608 15:43:45.643790 140152484665152 module_wrapper.py:139] From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0608 15:43:57.625500 140152484665152 module_wrapper.py:139] From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Serializing predictions...
+I0608 15:43:57.625864 140152484665152 biobert_predict.py:504] Serializing predictions...
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+W0608 15:43:57.649250 140152484665152 deprecation.py:506] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+W0608 15:43:57.687890 140152484665152 deprecation.py:323] From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+W0608 15:43:57.688205 140152484665152 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+W0608 15:43:57.807970 140152484665152 module_wrapper.py:139] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0608 15:43:57.952484 140152484665152 deprecation.py:323] From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Calling model_fn.
+I0608 15:43:57.970542 140152484665152 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:Running infer on CPU
+I0608 15:43:57.970928 140152484665152 tpu_estimator.py:3124] Running infer on CPU
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0608 15:43:57.974649 140152484665152 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0608 15:43:57.976630 140152484665152 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+W0608 15:43:58.008084 140152484665152 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+W0608 15:43:58.064715 140152484665152 deprecation.py:323] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0608 15:43:58.067108 140152484665152 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+W0608 15:43:58.171619 140152484665152 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+WARNING:tensorflow:From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0608 15:44:00.058383 140152484665152 module_wrapper.py:139] From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+W0608 15:44:00.065236 140152484665152 module_wrapper.py:139] From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+INFO:tensorflow:Done calling model_fn.
+I0608 15:44:00.682296 140152484665152 estimator.py:1150] Done calling model_fn.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0608 15:44:00.832754 140152484665152 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO:tensorflow:Graph was finalized.
+I0608 15:44:01.160782 140152484665152 monitored_session.py:240] Graph was finalized.
+2021-06-08 15:44:01.161256: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-06-08 15:44:01.188802: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2021-06-08 15:44:01.190948: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55beab6d98c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-08 15:44:01.190988: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-08 15:44:01.194978: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-06-08 15:44:01.195024: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-06-08 15:44:01.195064: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lamone): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from models/GO_CC-ids/model.ckpt-52712
+I0608 15:44:01.201445 140152484665152 saver.py:1284] Restoring parameters from models/GO_CC-ids/model.ckpt-52712
+INFO:tensorflow:Running local_init_op.
+I0608 15:44:04.098221 140152484665152 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0608 15:44:04.181364 140152484665152 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Writing prediction 0
+I0608 15:44:06.180082 140152484665152 biobert_predict.py:511] Writing prediction 0
+INFO:tensorflow:Writing prediction 5000
+I0608 15:52:23.661871 140152484665152 biobert_predict.py:511] Writing prediction 5000
+INFO:tensorflow:Writing prediction 10000
+I0608 16:00:39.852450 140152484665152 biobert_predict.py:511] Writing prediction 10000
+INFO:tensorflow:Writing prediction 15000
+I0608 16:08:48.544481 140152484665152 biobert_predict.py:511] Writing prediction 15000
+INFO:tensorflow:Writing prediction 20000
+I0608 16:17:03.623404 140152484665152 biobert_predict.py:511] Writing prediction 20000
+INFO:tensorflow:Writing prediction 25000
+I0608 16:25:22.941232 140152484665152 biobert_predict.py:511] Writing prediction 25000
+INFO:tensorflow:Writing prediction 30000
+I0608 16:33:37.014001 140152484665152 biobert_predict.py:511] Writing prediction 30000
+INFO:tensorflow:Writing prediction 35000
+I0608 16:41:48.575483 140152484665152 biobert_predict.py:511] Writing prediction 35000
+INFO:tensorflow:Writing prediction 40000
+I0608 16:49:58.960195 140152484665152 biobert_predict.py:511] Writing prediction 40000
+INFO:tensorflow:Writing prediction 45000
+I0608 16:58:13.954719 140152484665152 biobert_predict.py:511] Writing prediction 45000
+INFO:tensorflow:Writing prediction 50000
+I0608 17:06:25.514703 140152484665152 biobert_predict.py:511] Writing prediction 50000
+INFO:tensorflow:Writing prediction 55000
+I0608 17:14:39.631141 140152484665152 biobert_predict.py:511] Writing prediction 55000
+INFO:tensorflow:Writing prediction 60000
+I0608 17:22:52.049534 140152484665152 biobert_predict.py:511] Writing prediction 60000
+INFO:tensorflow:Writing prediction 65000
+I0608 17:30:55.206617 140152484665152 biobert_predict.py:511] Writing prediction 65000
+INFO:tensorflow:Writing prediction 70000
+I0608 17:39:12.846543 140152484665152 biobert_predict.py:511] Writing prediction 70000
+INFO:tensorflow:Writing prediction 75000
+I0608 17:47:27.433673 140152484665152 biobert_predict.py:511] Writing prediction 75000
+INFO:tensorflow:Writing prediction 80000
+I0608 17:55:41.817571 140152484665152 biobert_predict.py:511] Writing prediction 80000
+INFO:tensorflow:Writing prediction 85000
+I0608 18:03:55.933284 140152484665152 biobert_predict.py:511] Writing prediction 85000
+INFO:tensorflow:Writing prediction 90000
+I0608 18:12:03.050658 140152484665152 biobert_predict.py:511] Writing prediction 90000
+INFO:tensorflow:Writing prediction 95000
+I0608 18:20:10.363340 140152484665152 biobert_predict.py:511] Writing prediction 95000
+INFO:tensorflow:Writing prediction 100000
+I0608 18:28:25.603691 140152484665152 biobert_predict.py:511] Writing prediction 100000
+INFO:tensorflow:Writing prediction 105000
+I0608 18:36:39.278270 140152484665152 biobert_predict.py:511] Writing prediction 105000
+INFO:tensorflow:Writing prediction 110000
+I0608 18:44:47.735686 140152484665152 biobert_predict.py:511] Writing prediction 110000
+INFO:tensorflow:Writing prediction 115000
+I0608 18:53:02.639718 140152484665152 biobert_predict.py:511] Writing prediction 115000
+INFO:tensorflow:Writing prediction 120000
+I0608 19:00:19.785674 140152484665152 biobert_predict.py:511] Writing prediction 120000
+INFO:tensorflow:Writing prediction 125000
+I0608 19:05:57.221172 140152484665152 biobert_predict.py:511] Writing prediction 125000
+INFO:tensorflow:Writing prediction 130000
+I0608 19:11:27.123004 140152484665152 biobert_predict.py:511] Writing prediction 130000
+INFO:tensorflow:Writing prediction 135000
+I0608 19:17:01.596892 140152484665152 biobert_predict.py:511] Writing prediction 135000
+INFO:tensorflow:Writing prediction 140000
+I0608 19:22:39.507935 140152484665152 biobert_predict.py:511] Writing prediction 140000
+INFO:tensorflow:Writing prediction 145000
+I0608 19:28:06.791652 140152484665152 biobert_predict.py:511] Writing prediction 145000
+INFO:tensorflow:Writing prediction 150000
+I0608 19:33:42.663244 140152484665152 biobert_predict.py:511] Writing prediction 150000
+INFO:tensorflow:Writing prediction 155000
+I0608 19:39:08.505779 140152484665152 biobert_predict.py:511] Writing prediction 155000
+INFO:tensorflow:Writing prediction 160000
+I0608 19:44:42.944174 140152484665152 biobert_predict.py:511] Writing prediction 160000
+INFO:tensorflow:Writing prediction 165000
+I0608 19:50:14.710941 140152484665152 biobert_predict.py:511] Writing prediction 165000
+INFO:tensorflow:Writing prediction 170000
+I0608 19:55:56.327696 140152484665152 biobert_predict.py:511] Writing prediction 170000
+INFO:tensorflow:Writing prediction 175000
+I0608 20:01:28.176924 140152484665152 biobert_predict.py:511] Writing prediction 175000
+INFO:tensorflow:Writing prediction 180000
+I0608 20:07:02.811310 140152484665152 biobert_predict.py:511] Writing prediction 180000
+INFO:tensorflow:Writing prediction 185000
+I0608 20:12:43.779063 140152484665152 biobert_predict.py:511] Writing prediction 185000
+INFO:tensorflow:Writing prediction 190000
+I0608 20:18:12.931953 140152484665152 biobert_predict.py:511] Writing prediction 190000
+INFO:tensorflow:Writing prediction 195000
+I0608 20:23:51.529505 140152484665152 biobert_predict.py:511] Writing prediction 195000
+INFO:tensorflow:Writing prediction 200000
+I0608 20:29:18.739668 140152484665152 biobert_predict.py:511] Writing prediction 200000
+INFO:tensorflow:Writing prediction 205000
+I0608 20:34:54.458403 140152484665152 biobert_predict.py:511] Writing prediction 205000
+INFO:tensorflow:Writing prediction 210000
+I0608 20:40:19.533375 140152484665152 biobert_predict.py:511] Writing prediction 210000
+INFO:tensorflow:Writing prediction 215000
+I0608 20:46:00.520179 140152484665152 biobert_predict.py:511] Writing prediction 215000
+INFO:tensorflow:Writing prediction 220000
+I0608 20:51:25.867642 140152484665152 biobert_predict.py:511] Writing prediction 220000
+INFO:tensorflow:Writing prediction 225000
+I0608 20:56:51.832157 140152484665152 biobert_predict.py:511] Writing prediction 225000
+INFO:tensorflow:Writing prediction 230000
+I0608 21:02:24.181646 140152484665152 biobert_predict.py:511] Writing prediction 230000
+INFO:tensorflow:Writing prediction 235000
+I0608 21:07:49.027499 140152484665152 biobert_predict.py:511] Writing prediction 235000
+INFO:tensorflow:Writing prediction 240000
+I0608 21:13:21.506656 140152484665152 biobert_predict.py:511] Writing prediction 240000
+INFO:tensorflow:Writing prediction 245000
+I0608 21:18:47.853900 140152484665152 biobert_predict.py:511] Writing prediction 245000
+INFO:tensorflow:Writing prediction 250000
+I0608 21:24:23.478761 140152484665152 biobert_predict.py:511] Writing prediction 250000
+INFO:tensorflow:Writing prediction 255000
+I0608 21:29:48.436150 140152484665152 biobert_predict.py:511] Writing prediction 255000
+INFO:tensorflow:Writing prediction 260000
+I0608 21:35:36.760178 140152484665152 biobert_predict.py:511] Writing prediction 260000
+INFO:tensorflow:Writing prediction 265000
+I0608 21:41:02.553105 140152484665152 biobert_predict.py:511] Writing prediction 265000
+INFO:tensorflow:Writing prediction 270000
+I0608 21:46:39.799450 140152484665152 biobert_predict.py:511] Writing prediction 270000
+INFO:tensorflow:Writing prediction 275000
+I0608 21:52:12.081442 140152484665152 biobert_predict.py:511] Writing prediction 275000
+INFO:tensorflow:Writing prediction 280000
+I0608 21:57:51.717454 140152484665152 biobert_predict.py:511] Writing prediction 280000
+INFO:tensorflow:Writing prediction 285000
+I0608 22:03:19.995657 140152484665152 biobert_predict.py:511] Writing prediction 285000
+INFO:tensorflow:Writing prediction 290000
+I0608 22:08:47.510514 140152484665152 biobert_predict.py:511] Writing prediction 290000
+INFO:tensorflow:Writing prediction 295000
+I0608 22:14:21.690139 140152484665152 biobert_predict.py:511] Writing prediction 295000
+INFO:tensorflow:Writing prediction 300000
+I0608 22:19:50.586968 140152484665152 biobert_predict.py:511] Writing prediction 300000
+INFO:tensorflow:Writing prediction 305000
+I0608 22:25:32.010153 140152484665152 biobert_predict.py:511] Writing prediction 305000
+INFO:tensorflow:Writing prediction 310000
+I0608 22:30:58.897154 140152484665152 biobert_predict.py:511] Writing prediction 310000
+INFO:tensorflow:Writing prediction 315000
+I0608 22:36:26.617662 140152484665152 biobert_predict.py:511] Writing prediction 315000
+INFO:tensorflow:Writing prediction 320000
+I0608 22:42:02.241105 140152484665152 biobert_predict.py:511] Writing prediction 320000
+INFO:tensorflow:Writing prediction 325000
+I0608 22:47:29.294709 140152484665152 biobert_predict.py:511] Writing prediction 325000
+INFO:tensorflow:Writing prediction 330000
+I0608 22:53:04.188462 140152484665152 biobert_predict.py:511] Writing prediction 330000
+INFO:tensorflow:Writing prediction 335000
+I0608 22:58:31.510342 140152484665152 biobert_predict.py:511] Writing prediction 335000
+INFO:tensorflow:Writing prediction 340000
+I0608 23:04:09.459942 140152484665152 biobert_predict.py:511] Writing prediction 340000
+INFO:tensorflow:Writing prediction 345000
+I0608 23:09:35.409636 140152484665152 biobert_predict.py:511] Writing prediction 345000
+INFO:tensorflow:Writing prediction 350000
+I0608 23:15:02.973368 140152484665152 biobert_predict.py:511] Writing prediction 350000
+INFO:tensorflow:Writing prediction 355000
+I0608 23:20:42.115638 140152484665152 biobert_predict.py:511] Writing prediction 355000
+INFO:tensorflow:Writing prediction 360000
+I0608 23:26:10.112972 140152484665152 biobert_predict.py:511] Writing prediction 360000
+INFO:tensorflow:Writing prediction 365000
+I0608 23:31:33.533265 140152484665152 biobert_predict.py:511] Writing prediction 365000
+INFO:tensorflow:Writing prediction 370000
+I0608 23:36:52.955254 140152484665152 biobert_predict.py:511] Writing prediction 370000
+INFO:tensorflow:Writing prediction 375000
+I0608 23:42:21.491165 140152484665152 biobert_predict.py:511] Writing prediction 375000
+INFO:tensorflow:Writing prediction 380000
+I0608 23:47:39.693303 140152484665152 biobert_predict.py:511] Writing prediction 380000
+INFO:tensorflow:Writing prediction 385000
+I0608 23:53:03.232602 140152484665152 biobert_predict.py:511] Writing prediction 385000
+INFO:tensorflow:Writing prediction 390000
+I0608 23:58:21.623046 140152484665152 biobert_predict.py:511] Writing prediction 390000
+INFO:tensorflow:Writing prediction 395000
+I0609 00:03:47.481267 140152484665152 biobert_predict.py:511] Writing prediction 395000
+INFO:tensorflow:Writing prediction 400000
+I0609 00:09:06.221139 140152484665152 biobert_predict.py:511] Writing prediction 400000
+INFO:tensorflow:Writing prediction 405000
+I0609 00:14:29.028379 140152484665152 biobert_predict.py:511] Writing prediction 405000
+INFO:tensorflow:Writing prediction 410000
+I0609 00:19:47.350759 140152484665152 biobert_predict.py:511] Writing prediction 410000
+INFO:tensorflow:Writing prediction 415000
+I0609 00:25:13.706445 140152484665152 biobert_predict.py:511] Writing prediction 415000
+INFO:tensorflow:Writing prediction 420000
+I0609 00:30:30.707648 140152484665152 biobert_predict.py:511] Writing prediction 420000
+INFO:tensorflow:Writing prediction 425000
+I0609 00:35:54.976405 140152484665152 biobert_predict.py:511] Writing prediction 425000
+INFO:tensorflow:Writing prediction 430000
+I0609 00:41:12.982136 140152484665152 biobert_predict.py:511] Writing prediction 430000
+INFO:tensorflow:Writing prediction 435000
+I0609 00:46:37.708609 140152484665152 biobert_predict.py:511] Writing prediction 435000
+INFO:tensorflow:Writing prediction 440000
+I0609 00:52:00.366433 140152484665152 biobert_predict.py:511] Writing prediction 440000
+INFO:tensorflow:Writing prediction 445000
+I0609 00:57:18.130723 140152484665152 biobert_predict.py:511] Writing prediction 445000
+INFO:tensorflow:Writing prediction 450000
+I0609 01:02:43.105705 140152484665152 biobert_predict.py:511] Writing prediction 450000
+INFO:tensorflow:Writing prediction 455000
+I0609 01:08:00.218890 140152484665152 biobert_predict.py:511] Writing prediction 455000
+INFO:tensorflow:Writing prediction 460000
+I0609 01:13:20.603290 140152484665152 biobert_predict.py:511] Writing prediction 460000
+INFO:tensorflow:Writing prediction 465000
+I0609 01:18:36.846764 140152484665152 biobert_predict.py:511] Writing prediction 465000
+INFO:tensorflow:Writing prediction 470000
+I0609 01:23:56.746695 140152484665152 biobert_predict.py:511] Writing prediction 470000
+INFO:tensorflow:Writing prediction 475000
+I0609 01:29:32.117821 140152484665152 biobert_predict.py:511] Writing prediction 475000
+INFO:tensorflow:Writing prediction 480000
+I0609 01:35:01.979132 140152484665152 biobert_predict.py:511] Writing prediction 480000
+INFO:tensorflow:Writing prediction 485000
+I0609 01:41:13.731945 140152484665152 biobert_predict.py:511] Writing prediction 485000
+INFO:tensorflow:Writing prediction 490000
+I0609 01:46:44.132874 140152484665152 biobert_predict.py:511] Writing prediction 490000
+INFO:tensorflow:Writing prediction 495000
+I0609 01:52:11.562482 140152484665152 biobert_predict.py:511] Writing prediction 495000
+INFO:tensorflow:Writing prediction 500000
+I0609 01:57:35.752033 140152484665152 biobert_predict.py:511] Writing prediction 500000
+INFO:tensorflow:Writing prediction 505000
+I0609 02:04:03.417756 140152484665152 biobert_predict.py:511] Writing prediction 505000
+INFO:tensorflow:Writing prediction 510000
+I0609 02:09:23.266171 140152484665152 biobert_predict.py:511] Writing prediction 510000
+INFO:tensorflow:Writing prediction 515000
+I0609 02:14:46.667582 140152484665152 biobert_predict.py:511] Writing prediction 515000
+INFO:tensorflow:Writing prediction 520000
+I0609 02:20:06.868836 140152484665152 biobert_predict.py:511] Writing prediction 520000
+INFO:tensorflow:Writing prediction 525000
+I0609 02:25:32.218588 140152484665152 biobert_predict.py:511] Writing prediction 525000
+INFO:tensorflow:Writing prediction 530000
+I0609 02:30:51.705113 140152484665152 biobert_predict.py:511] Writing prediction 530000
+INFO:tensorflow:Writing prediction 535000
+I0609 02:36:15.616769 140152484665152 biobert_predict.py:511] Writing prediction 535000
+INFO:tensorflow:Writing prediction 540000
+I0609 02:41:38.892821 140152484665152 biobert_predict.py:511] Writing prediction 540000
+INFO:tensorflow:Writing prediction 545000
+I0609 02:46:59.789924 140152484665152 biobert_predict.py:511] Writing prediction 545000
+INFO:tensorflow:Writing prediction 550000
+I0609 02:52:26.580300 140152484665152 biobert_predict.py:511] Writing prediction 550000
+INFO:tensorflow:Writing prediction 555000
+I0609 02:57:47.301296 140152484665152 biobert_predict.py:511] Writing prediction 555000
+INFO:tensorflow:Writing prediction 560000
+I0609 03:03:07.144594 140152484665152 biobert_predict.py:511] Writing prediction 560000
+INFO:tensorflow:Writing prediction 565000
+I0609 03:08:27.043828 140152484665152 biobert_predict.py:511] Writing prediction 565000
+INFO:tensorflow:Writing prediction 570000
+I0609 03:13:57.757236 140152484665152 biobert_predict.py:511] Writing prediction 570000
+INFO:tensorflow:Writing prediction 575000
+I0609 03:19:17.430969 140152484665152 biobert_predict.py:511] Writing prediction 575000
+INFO:tensorflow:Writing prediction 580000
+I0609 03:24:38.535942 140152484665152 biobert_predict.py:511] Writing prediction 580000
+INFO:tensorflow:Writing prediction 585000
+I0609 03:29:57.442389 140152484665152 biobert_predict.py:511] Writing prediction 585000
+INFO:tensorflow:Writing prediction 590000
+I0609 03:35:16.091635 140152484665152 biobert_predict.py:511] Writing prediction 590000
+INFO:tensorflow:Writing prediction 595000
+I0609 03:40:34.115602 140152484665152 biobert_predict.py:511] Writing prediction 595000
+INFO:tensorflow:Writing prediction 600000
+I0609 03:45:58.502239 140152484665152 biobert_predict.py:511] Writing prediction 600000
+INFO:tensorflow:Writing prediction 605000
+I0609 03:51:18.746384 140152484665152 biobert_predict.py:511] Writing prediction 605000
+INFO:tensorflow:Writing prediction 610000
+I0609 03:56:41.339121 140152484665152 biobert_predict.py:511] Writing prediction 610000
+INFO:tensorflow:Writing prediction 615000
+I0609 04:02:03.321489 140152484665152 biobert_predict.py:511] Writing prediction 615000
+INFO:tensorflow:Writing prediction 620000
+I0609 04:07:22.126069 140152484665152 biobert_predict.py:511] Writing prediction 620000
+INFO:tensorflow:Writing prediction 625000
+I0609 04:12:45.375517 140152484665152 biobert_predict.py:511] Writing prediction 625000
+INFO:tensorflow:Writing prediction 630000
+I0609 04:18:03.322901 140152484665152 biobert_predict.py:511] Writing prediction 630000
+INFO:tensorflow:Writing prediction 635000
+I0609 04:23:31.087863 140152484665152 biobert_predict.py:511] Writing prediction 635000
+INFO:tensorflow:Writing prediction 640000
+I0609 04:28:53.608904 140152484665152 biobert_predict.py:511] Writing prediction 640000
+INFO:tensorflow:Writing prediction 645000
+I0609 04:34:20.473468 140152484665152 biobert_predict.py:511] Writing prediction 645000
+INFO:tensorflow:Writing prediction 650000
+I0609 04:39:42.837323 140152484665152 biobert_predict.py:511] Writing prediction 650000
+INFO:tensorflow:Writing prediction 655000
+I0609 04:45:12.865601 140152484665152 biobert_predict.py:511] Writing prediction 655000
+INFO:tensorflow:Writing prediction 660000
+I0609 04:50:34.767924 140152484665152 biobert_predict.py:511] Writing prediction 660000
+INFO:tensorflow:Writing prediction 665000
+I0609 04:56:02.644168 140152484665152 biobert_predict.py:511] Writing prediction 665000
+INFO:tensorflow:Writing prediction 670000
+I0609 05:01:27.810240 140152484665152 biobert_predict.py:511] Writing prediction 670000
+INFO:tensorflow:Writing prediction 675000
+I0609 05:06:49.657012 140152484665152 biobert_predict.py:511] Writing prediction 675000
+INFO:tensorflow:Writing prediction 680000
+I0609 05:12:13.704724 140152484665152 biobert_predict.py:511] Writing prediction 680000
+INFO:tensorflow:Writing prediction 685000
+I0609 05:17:34.305505 140152484665152 biobert_predict.py:511] Writing prediction 685000
+INFO:tensorflow:Writing prediction 690000
+I0609 05:23:00.753581 140152484665152 biobert_predict.py:511] Writing prediction 690000
+INFO:tensorflow:Writing prediction 695000
+I0609 05:28:20.018687 140152484665152 biobert_predict.py:511] Writing prediction 695000
+INFO:tensorflow:Writing prediction 700000
+I0609 05:33:49.510861 140152484665152 biobert_predict.py:511] Writing prediction 700000
+INFO:tensorflow:Writing prediction 705000
+I0609 05:39:08.868686 140152484665152 biobert_predict.py:511] Writing prediction 705000
+INFO:tensorflow:Writing prediction 710000
+I0609 05:44:33.997163 140152484665152 biobert_predict.py:511] Writing prediction 710000
+INFO:tensorflow:Writing prediction 715000
+I0609 05:49:53.135462 140152484665152 biobert_predict.py:511] Writing prediction 715000
+INFO:tensorflow:Writing prediction 720000
+I0609 05:55:16.173396 140152484665152 biobert_predict.py:511] Writing prediction 720000
+INFO:tensorflow:Writing prediction 725000
+I0609 06:00:35.338314 140152484665152 biobert_predict.py:511] Writing prediction 725000
+INFO:tensorflow:Writing prediction 730000
+I0609 06:05:59.301888 140152484665152 biobert_predict.py:511] Writing prediction 730000
+INFO:tensorflow:Writing prediction 735000
+I0609 06:11:18.685592 140152484665152 biobert_predict.py:511] Writing prediction 735000
+INFO:tensorflow:Writing prediction 740000
+I0609 06:16:37.095112 140152484665152 biobert_predict.py:511] Writing prediction 740000
+INFO:tensorflow:Writing prediction 745000
+I0609 06:21:58.256997 140152484665152 biobert_predict.py:511] Writing prediction 745000
+INFO:tensorflow:Writing prediction 750000
+I0609 06:27:17.082012 140152484665152 biobert_predict.py:511] Writing prediction 750000
+INFO:tensorflow:Writing prediction 755000
+I0609 06:32:44.044244 140152484665152 biobert_predict.py:511] Writing prediction 755000
+INFO:tensorflow:Writing prediction 760000
+I0609 06:38:04.928615 140152484665152 biobert_predict.py:511] Writing prediction 760000
+INFO:tensorflow:Writing prediction 765000
+I0609 06:43:33.220434 140152484665152 biobert_predict.py:511] Writing prediction 765000
+INFO:tensorflow:Writing prediction 770000
+I0609 06:48:54.338886 140152484665152 biobert_predict.py:511] Writing prediction 770000
+INFO:tensorflow:Writing prediction 775000
+I0609 06:54:14.334326 140152484665152 biobert_predict.py:511] Writing prediction 775000
+INFO:tensorflow:Writing prediction 780000
+I0609 06:59:34.292044 140152484665152 biobert_predict.py:511] Writing prediction 780000
+INFO:tensorflow:Writing prediction 785000
+I0609 07:04:56.036795 140152484665152 biobert_predict.py:511] Writing prediction 785000
+INFO:tensorflow:Writing prediction 790000
+I0609 07:10:15.018409 140152484665152 biobert_predict.py:511] Writing prediction 790000
+INFO:tensorflow:Writing prediction 795000
+I0609 07:15:37.138808 140152484665152 biobert_predict.py:511] Writing prediction 795000
+INFO:tensorflow:Writing prediction 800000
+I0609 07:20:58.662168 140152484665152 biobert_predict.py:511] Writing prediction 800000
+INFO:tensorflow:Writing prediction 805000
+I0609 07:26:21.787278 140152484665152 biobert_predict.py:511] Writing prediction 805000
+INFO:tensorflow:Writing prediction 810000
+I0609 07:31:52.032628 140152484665152 biobert_predict.py:511] Writing prediction 810000
+INFO:tensorflow:Writing prediction 815000
+I0609 07:37:12.665930 140152484665152 biobert_predict.py:511] Writing prediction 815000
+INFO:tensorflow:Writing prediction 820000
+I0609 07:42:32.443345 140152484665152 biobert_predict.py:511] Writing prediction 820000
+INFO:tensorflow:Writing prediction 825000
+I0609 07:47:52.281412 140152484665152 biobert_predict.py:511] Writing prediction 825000
+INFO:tensorflow:Writing prediction 830000
+I0609 07:53:15.140408 140152484665152 biobert_predict.py:511] Writing prediction 830000
+INFO:tensorflow:Writing prediction 835000
+I0609 07:58:33.752308 140152484665152 biobert_predict.py:511] Writing prediction 835000
+INFO:tensorflow:Writing prediction 840000
+I0609 08:03:56.220573 140152484665152 biobert_predict.py:511] Writing prediction 840000
+INFO:tensorflow:Writing prediction 845000
+I0609 08:09:15.396086 140152484665152 biobert_predict.py:511] Writing prediction 845000
+INFO:tensorflow:Writing prediction 850000
+I0609 08:14:36.514441 140152484665152 biobert_predict.py:511] Writing prediction 850000
+INFO:tensorflow:Writing prediction 855000
+I0609 08:19:54.582350 140152484665152 biobert_predict.py:511] Writing prediction 855000
+INFO:tensorflow:Writing prediction 860000
+I0609 08:25:18.583662 140152484665152 biobert_predict.py:511] Writing prediction 860000
+INFO:tensorflow:Writing prediction 865000
+I0609 08:30:36.544495 140152484665152 biobert_predict.py:511] Writing prediction 865000
+INFO:tensorflow:Writing prediction 870000
+I0609 08:35:57.909156 140152484665152 biobert_predict.py:511] Writing prediction 870000
+INFO:tensorflow:Writing prediction 875000
+I0609 08:41:17.819578 140152484665152 biobert_predict.py:511] Writing prediction 875000
+INFO:tensorflow:Writing prediction 880000
+I0609 08:46:39.010843 140152484665152 biobert_predict.py:511] Writing prediction 880000
+INFO:tensorflow:Writing prediction 885000
+I0609 08:51:59.364899 140152484665152 biobert_predict.py:511] Writing prediction 885000
+INFO:tensorflow:Writing prediction 890000
+I0609 08:57:20.374935 140152484665152 biobert_predict.py:511] Writing prediction 890000
+INFO:tensorflow:Writing prediction 895000
+I0609 09:02:44.880767 140152484665152 biobert_predict.py:511] Writing prediction 895000
+INFO:tensorflow:Writing prediction 900000
+I0609 09:08:05.458094 140152484665152 biobert_predict.py:511] Writing prediction 900000
+INFO:tensorflow:Writing prediction 905000
+I0609 09:13:29.318496 140152484665152 biobert_predict.py:511] Writing prediction 905000
+INFO:tensorflow:Writing prediction 910000
+I0609 09:18:49.435177 140152484665152 biobert_predict.py:511] Writing prediction 910000
+INFO:tensorflow:Writing prediction 915000
+I0609 09:24:21.884545 140152484665152 biobert_predict.py:511] Writing prediction 915000
+INFO:tensorflow:Writing prediction 920000
+I0609 09:29:41.701378 140152484665152 biobert_predict.py:511] Writing prediction 920000
+INFO:tensorflow:Writing prediction 925000
+I0609 09:35:05.966204 140152484665152 biobert_predict.py:511] Writing prediction 925000
+INFO:tensorflow:Writing prediction 930000
+I0609 09:40:25.303061 140152484665152 biobert_predict.py:511] Writing prediction 930000
+INFO:tensorflow:Writing prediction 935000
+I0609 09:45:50.873554 140152484665152 biobert_predict.py:511] Writing prediction 935000
+INFO:tensorflow:Writing prediction 940000
+I0609 09:51:10.283029 140152484665152 biobert_predict.py:511] Writing prediction 940000
+INFO:tensorflow:Writing prediction 945000
+I0609 09:56:41.683441 140152484665152 biobert_predict.py:511] Writing prediction 945000
+INFO:tensorflow:Writing prediction 950000
+I0609 10:02:09.682814 140152484665152 biobert_predict.py:511] Writing prediction 950000
+INFO:tensorflow:Writing prediction 955000
+I0609 10:07:30.715031 140152484665152 biobert_predict.py:511] Writing prediction 955000
+INFO:tensorflow:Writing prediction 960000
+I0609 10:12:55.635627 140152484665152 biobert_predict.py:511] Writing prediction 960000
+INFO:tensorflow:Writing prediction 965000
+I0609 10:18:17.376457 140152484665152 biobert_predict.py:511] Writing prediction 965000
+INFO:tensorflow:Writing prediction 970000
+I0609 10:23:42.785510 140152484665152 biobert_predict.py:511] Writing prediction 970000
+INFO:tensorflow:Writing prediction 975000
+I0609 10:29:04.537410 140152484665152 biobert_predict.py:511] Writing prediction 975000
+INFO:tensorflow:Writing prediction 980000
+I0609 10:34:29.408178 140152484665152 biobert_predict.py:511] Writing prediction 980000
+INFO:tensorflow:Writing prediction 985000
+I0609 10:39:51.541211 140152484665152 biobert_predict.py:511] Writing prediction 985000
+INFO:tensorflow:Writing prediction 990000
+I0609 10:45:17.326779 140152484665152 biobert_predict.py:511] Writing prediction 990000
+INFO:tensorflow:Writing prediction 995000
+I0609 10:50:39.958205 140152484665152 biobert_predict.py:511] Writing prediction 995000
+INFO:tensorflow:Writing prediction 1000000
+I0609 10:56:08.675595 140152484665152 biobert_predict.py:511] Writing prediction 1000000
+INFO:tensorflow:Writing prediction 1005000
+I0609 11:01:35.255717 140152484665152 biobert_predict.py:511] Writing prediction 1005000
+INFO:tensorflow:Writing prediction 1010000
+I0609 11:06:57.941417 140152484665152 biobert_predict.py:511] Writing prediction 1010000
+INFO:tensorflow:Writing prediction 1015000
+I0609 11:12:26.823365 140152484665152 biobert_predict.py:511] Writing prediction 1015000
+INFO:tensorflow:Writing prediction 1020000
+I0609 11:17:56.490642 140152484665152 biobert_predict.py:511] Writing prediction 1020000
+INFO:tensorflow:Writing prediction 1025000
+I0609 11:23:31.958989 140152484665152 biobert_predict.py:511] Writing prediction 1025000
+INFO:tensorflow:Writing prediction 1030000
+I0609 11:29:08.607490 140152484665152 biobert_predict.py:511] Writing prediction 1030000
+INFO:tensorflow:Writing prediction 1035000
+I0609 11:34:38.626585 140152484665152 biobert_predict.py:511] Writing prediction 1035000
+INFO:tensorflow:Writing prediction 1040000
+I0609 11:40:03.592681 140152484665152 biobert_predict.py:511] Writing prediction 1040000
+INFO:tensorflow:Writing prediction 1045000
+I0609 11:45:42.981122 140152484665152 biobert_predict.py:511] Writing prediction 1045000
+INFO:tensorflow:Writing prediction 1050000
+I0609 11:51:29.853842 140152484665152 biobert_predict.py:511] Writing prediction 1050000
+INFO:tensorflow:Writing prediction 1055000
+I0609 11:56:58.483598 140152484665152 biobert_predict.py:511] Writing prediction 1055000
+INFO:tensorflow:Writing prediction 1060000
+I0609 12:02:29.895426 140152484665152 biobert_predict.py:511] Writing prediction 1060000
+INFO:tensorflow:Writing prediction 1065000
+I0609 12:07:57.911471 140152484665152 biobert_predict.py:511] Writing prediction 1065000
+INFO:tensorflow:Writing prediction 1070000
+I0609 12:13:29.448942 140152484665152 biobert_predict.py:511] Writing prediction 1070000
+INFO:tensorflow:Writing prediction 1075000
+I0609 12:18:56.611680 140152484665152 biobert_predict.py:511] Writing prediction 1075000
+INFO:tensorflow:Writing prediction 1080000
+I0609 12:24:28.516125 140152484665152 biobert_predict.py:511] Writing prediction 1080000
+INFO:tensorflow:Writing prediction 1085000
+I0609 12:29:54.759813 140152484665152 biobert_predict.py:511] Writing prediction 1085000
+INFO:tensorflow:Writing prediction 1090000
+I0609 12:35:26.435789 140152484665152 biobert_predict.py:511] Writing prediction 1090000
+INFO:tensorflow:Writing prediction 1095000
+I0609 12:40:50.693838 140152484665152 biobert_predict.py:511] Writing prediction 1095000
+INFO:tensorflow:Writing prediction 1100000
+I0609 12:46:25.501770 140152484665152 biobert_predict.py:511] Writing prediction 1100000
+INFO:tensorflow:Writing prediction 1105000
+I0609 12:51:52.569004 140152484665152 biobert_predict.py:511] Writing prediction 1105000
+INFO:tensorflow:Writing prediction 1110000
+I0609 12:57:25.270629 140152484665152 biobert_predict.py:511] Writing prediction 1110000
+INFO:tensorflow:Writing prediction 1115000
+I0609 13:03:01.731309 140152484665152 biobert_predict.py:511] Writing prediction 1115000
+INFO:tensorflow:Writing prediction 1120000
+I0609 13:08:25.183296 140152484665152 biobert_predict.py:511] Writing prediction 1120000
+INFO:tensorflow:Writing prediction 1125000
+I0609 13:13:50.506205 140152484665152 biobert_predict.py:511] Writing prediction 1125000
+INFO:tensorflow:Writing prediction 1130000
+I0609 13:19:16.033958 140152484665152 biobert_predict.py:511] Writing prediction 1130000
+INFO:tensorflow:Writing prediction 1135000
+I0609 13:24:47.841310 140152484665152 biobert_predict.py:511] Writing prediction 1135000
+INFO:tensorflow:Writing prediction 1140000
+I0609 13:30:23.981785 140152484665152 biobert_predict.py:511] Writing prediction 1140000
+INFO:tensorflow:Writing prediction 1145000
+I0609 13:36:00.400459 140152484665152 biobert_predict.py:511] Writing prediction 1145000
+INFO:tensorflow:Writing prediction 1150000
+I0609 13:42:17.798880 140152484665152 biobert_predict.py:511] Writing prediction 1150000
+INFO:tensorflow:Writing prediction 1155000
+I0609 13:47:45.813659 140152484665152 biobert_predict.py:511] Writing prediction 1155000
+INFO:tensorflow:Writing prediction 1160000
+I0609 13:53:16.055655 140152484665152 biobert_predict.py:511] Writing prediction 1160000
+INFO:tensorflow:Writing prediction 1165000
+I0609 13:58:58.327705 140152484665152 biobert_predict.py:511] Writing prediction 1165000
+INFO:tensorflow:Writing prediction 1170000
+I0609 14:04:44.127176 140152484665152 biobert_predict.py:511] Writing prediction 1170000
+INFO:tensorflow:Writing prediction 1175000
+I0609 14:10:05.071614 140152484665152 biobert_predict.py:511] Writing prediction 1175000
+INFO:tensorflow:Writing prediction 1180000
+I0609 14:15:33.582772 140152484665152 biobert_predict.py:511] Writing prediction 1180000
+INFO:tensorflow:Writing prediction 1185000
+I0609 14:21:03.213880 140152484665152 biobert_predict.py:511] Writing prediction 1185000
+INFO:tensorflow:Writing prediction 1190000
+I0609 14:26:42.528320 140152484665152 biobert_predict.py:511] Writing prediction 1190000
+INFO:tensorflow:Writing prediction 1195000
+I0609 14:32:24.586083 140152484665152 biobert_predict.py:511] Writing prediction 1195000
+INFO:tensorflow:Writing prediction 1200000
+I0609 14:38:01.871981 140152484665152 biobert_predict.py:511] Writing prediction 1200000
+INFO:tensorflow:Writing prediction 1205000
+I0609 14:43:51.283288 140152484665152 biobert_predict.py:511] Writing prediction 1205000
+INFO:tensorflow:Writing prediction 1210000
+I0609 14:49:28.035100 140152484665152 biobert_predict.py:511] Writing prediction 1210000
+INFO:tensorflow:Writing prediction 1215000
+I0609 14:55:14.505183 140152484665152 biobert_predict.py:511] Writing prediction 1215000
+INFO:tensorflow:Writing prediction 1220000
+I0609 15:00:48.493700 140152484665152 biobert_predict.py:511] Writing prediction 1220000
+INFO:tensorflow:Writing prediction 1225000
+I0609 15:06:35.503319 140152484665152 biobert_predict.py:511] Writing prediction 1225000
+INFO:tensorflow:Writing prediction 1230000
+I0609 15:12:24.273053 140152484665152 biobert_predict.py:511] Writing prediction 1230000
+INFO:tensorflow:Writing prediction 1235000
+I0609 15:17:58.850450 140152484665152 biobert_predict.py:511] Writing prediction 1235000
+INFO:tensorflow:Writing prediction 1240000
+I0609 15:23:44.855491 140152484665152 biobert_predict.py:511] Writing prediction 1240000
+INFO:tensorflow:Writing prediction 1245000
+I0609 15:29:25.624091 140152484665152 biobert_predict.py:511] Writing prediction 1245000
+INFO:tensorflow:Writing prediction 1250000
+I0609 15:35:24.581720 140152484665152 biobert_predict.py:511] Writing prediction 1250000
+INFO:tensorflow:Writing prediction 1255000
+I0609 15:41:03.579215 140152484665152 biobert_predict.py:511] Writing prediction 1255000
+INFO:tensorflow:Writing prediction 1260000
+I0609 15:46:46.910001 140152484665152 biobert_predict.py:511] Writing prediction 1260000
+INFO:tensorflow:Writing prediction 1265000
+I0609 15:52:34.862000 140152484665152 biobert_predict.py:511] Writing prediction 1265000
+INFO:tensorflow:Writing prediction 1270000
+I0609 15:58:09.891499 140152484665152 biobert_predict.py:511] Writing prediction 1270000
+INFO:tensorflow:Writing prediction 1275000
+I0609 16:03:58.940937 140152484665152 biobert_predict.py:511] Writing prediction 1275000
+INFO:tensorflow:Writing prediction 1280000
+I0609 16:09:38.054379 140152484665152 biobert_predict.py:511] Writing prediction 1280000
+INFO:tensorflow:Writing prediction 1285000
+I0609 16:15:27.427827 140152484665152 biobert_predict.py:511] Writing prediction 1285000
+INFO:tensorflow:Writing prediction 1290000
+I0609 16:20:55.420047 140152484665152 biobert_predict.py:511] Writing prediction 1290000
+INFO:tensorflow:Writing prediction 1295000
+I0609 16:26:37.857824 140152484665152 biobert_predict.py:511] Writing prediction 1295000
+INFO:tensorflow:Writing prediction 1300000
+I0609 16:32:11.833380 140152484665152 biobert_predict.py:511] Writing prediction 1300000
+INFO:tensorflow:Writing prediction 1305000
+I0609 16:37:38.492949 140152484665152 biobert_predict.py:511] Writing prediction 1305000
+INFO:tensorflow:Writing prediction 1310000
+I0609 16:43:17.247238 140152484665152 biobert_predict.py:511] Writing prediction 1310000
+INFO:tensorflow:Writing prediction 1315000
+I0609 16:48:42.162000 140152484665152 biobert_predict.py:511] Writing prediction 1315000
+INFO:tensorflow:Writing prediction 1320000
+I0609 16:54:32.793109 140152484665152 biobert_predict.py:511] Writing prediction 1320000
+INFO:tensorflow:Writing prediction 1325000
+I0609 16:59:54.763990 140152484665152 biobert_predict.py:511] Writing prediction 1325000
+INFO:tensorflow:Writing prediction 1330000
+I0609 17:05:19.207987 140152484665152 biobert_predict.py:511] Writing prediction 1330000
+INFO:tensorflow:Writing prediction 1335000
+I0609 17:10:43.154093 140152484665152 biobert_predict.py:511] Writing prediction 1335000
+INFO:tensorflow:Writing prediction 1340000
+I0609 17:16:20.733006 140152484665152 biobert_predict.py:511] Writing prediction 1340000
+INFO:tensorflow:Writing prediction 1345000
+I0609 17:21:42.870734 140152484665152 biobert_predict.py:511] Writing prediction 1345000
+INFO:tensorflow:Writing prediction 1350000
+I0609 17:27:06.407043 140152484665152 biobert_predict.py:511] Writing prediction 1350000
+INFO:tensorflow:Writing prediction 1355000
+I0609 17:32:45.319863 140152484665152 biobert_predict.py:511] Writing prediction 1355000
+INFO:tensorflow:Writing prediction 1360000
+I0609 17:38:15.380762 140152484665152 biobert_predict.py:511] Writing prediction 1360000
+INFO:tensorflow:Writing prediction 1365000
+I0609 17:43:58.868896 140152484665152 biobert_predict.py:511] Writing prediction 1365000
+INFO:tensorflow:prediction_loop marked as finished
+I0609 17:46:18.030612 140152484665152 error_handling.py:101] prediction_loop marked as finished
+INFO:tensorflow:prediction_loop marked as finished
+I0609 17:46:18.031231 140152484665152 error_handling.py:101] prediction_loop marked as finished
+BB for GO_CC-spans
+mkdir: cannot create directory ‘../data/biobert/GO_CC-spans’: File exists
+WARNING:tensorflow:From biobert_predict.py:519: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0609 17:46:22.432291 139663746742080 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0609 17:46:22.432487 139663746742080 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0609 17:46:22.432781 139663746742080 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0609 17:46:22.433817 139663746742080 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7f045e449c80>) includes params argument, but params are not passed to Estimator.
+W0609 17:46:23.184407 139663746742080 estimator.py:1994] Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7f045e449c80>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Using config: {'_model_dir': 'models/GO_CC-spans', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f045af9dfd0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+I0609 17:46:23.186319 139663746742080 estimator.py:212] Using config: {'_model_dir': 'models/GO_CC-spans', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f045af9dfd0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+INFO:tensorflow:_TPUContext: eval_on_tpu True
+I0609 17:46:23.186929 139663746742080 tpu_context.py:220] _TPUContext: eval_on_tpu True
+WARNING:tensorflow:eval_on_tpu ignored because use_tpu is False.
+W0609 17:46:23.187352 139663746742080 tpu_context.py:222] eval_on_tpu ignored because use_tpu is False.
+WARNING:tensorflow:From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0609 17:46:23.187956 139663746742080 module_wrapper.py:139] From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0609 17:46:31.906931 139663746742080 module_wrapper.py:139] From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Serializing predictions...
+I0609 17:46:31.907117 139663746742080 biobert_predict.py:504] Serializing predictions...
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+W0609 17:46:31.922378 139663746742080 deprecation.py:506] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+W0609 17:46:31.948554 139663746742080 deprecation.py:323] From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+W0609 17:46:31.948833 139663746742080 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+W0609 17:46:32.024391 139663746742080 module_wrapper.py:139] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0609 17:46:32.129034 139663746742080 deprecation.py:323] From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Calling model_fn.
+I0609 17:46:32.145622 139663746742080 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:Running infer on CPU
+I0609 17:46:32.145866 139663746742080 tpu_estimator.py:3124] Running infer on CPU
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0609 17:46:32.149269 139663746742080 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0609 17:46:32.150756 139663746742080 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+W0609 17:46:32.178470 139663746742080 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+W0609 17:46:32.227911 139663746742080 deprecation.py:323] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0609 17:46:32.229416 139663746742080 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+W0609 17:46:32.318094 139663746742080 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+WARNING:tensorflow:From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0609 17:46:33.880761 139663746742080 module_wrapper.py:139] From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+W0609 17:46:33.884987 139663746742080 module_wrapper.py:139] From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+INFO:tensorflow:Done calling model_fn.
+I0609 17:46:34.408497 139663746742080 estimator.py:1150] Done calling model_fn.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0609 17:46:34.540229 139663746742080 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO:tensorflow:Graph was finalized.
+I0609 17:46:34.838543 139663746742080 monitored_session.py:240] Graph was finalized.
+2021-06-09 17:46:34.839567: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-06-09 17:46:34.868928: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2021-06-09 17:46:34.873069: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55761b5e51a0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-09 17:46:34.873105: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-09 17:46:34.875500: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-06-09 17:46:34.875523: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-06-09 17:46:34.875543: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lamone): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from models/GO_CC-spans/model.ckpt-52712
+I0609 17:46:34.878964 139663746742080 saver.py:1284] Restoring parameters from models/GO_CC-spans/model.ckpt-52712
+INFO:tensorflow:Running local_init_op.
+I0609 17:46:39.681247 139663746742080 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0609 17:46:39.749427 139663746742080 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Writing prediction 0
+I0609 17:46:41.166205 139663746742080 biobert_predict.py:511] Writing prediction 0
+INFO:tensorflow:Writing prediction 5000
+I0609 17:52:09.016756 139663746742080 biobert_predict.py:511] Writing prediction 5000
+INFO:tensorflow:Writing prediction 10000
+I0609 17:57:34.061637 139663746742080 biobert_predict.py:511] Writing prediction 10000
+INFO:tensorflow:Writing prediction 15000
+I0609 18:03:07.622376 139663746742080 biobert_predict.py:511] Writing prediction 15000
+INFO:tensorflow:Writing prediction 20000
+I0609 18:08:32.857535 139663746742080 biobert_predict.py:511] Writing prediction 20000
+INFO:tensorflow:Writing prediction 25000
+I0609 18:14:08.190383 139663746742080 biobert_predict.py:511] Writing prediction 25000
+INFO:tensorflow:Writing prediction 30000
+I0609 18:19:32.033485 139663746742080 biobert_predict.py:511] Writing prediction 30000
+INFO:tensorflow:Writing prediction 35000
+I0609 18:25:08.422586 139663746742080 biobert_predict.py:511] Writing prediction 35000
+INFO:tensorflow:Writing prediction 40000
+I0609 18:30:41.421317 139663746742080 biobert_predict.py:511] Writing prediction 40000
+INFO:tensorflow:Writing prediction 45000
+I0609 18:36:13.161174 139663746742080 biobert_predict.py:511] Writing prediction 45000
+INFO:tensorflow:Writing prediction 50000
+I0609 18:41:34.649325 139663746742080 biobert_predict.py:511] Writing prediction 50000
+INFO:tensorflow:Writing prediction 55000
+I0609 18:46:57.294945 139663746742080 biobert_predict.py:511] Writing prediction 55000
+INFO:tensorflow:Writing prediction 60000
+I0609 18:52:27.391746 139663746742080 biobert_predict.py:511] Writing prediction 60000
+INFO:tensorflow:Writing prediction 65000
+I0609 18:57:44.163740 139663746742080 biobert_predict.py:511] Writing prediction 65000
+INFO:tensorflow:Writing prediction 70000
+I0609 19:03:10.500653 139663746742080 biobert_predict.py:511] Writing prediction 70000
+INFO:tensorflow:Writing prediction 75000
+I0609 19:08:27.060045 139663746742080 biobert_predict.py:511] Writing prediction 75000
+INFO:tensorflow:Writing prediction 80000
+I0609 19:13:53.429614 139663746742080 biobert_predict.py:511] Writing prediction 80000
+INFO:tensorflow:Writing prediction 85000
+I0609 19:19:11.211694 139663746742080 biobert_predict.py:511] Writing prediction 85000
+INFO:tensorflow:Writing prediction 90000
+I0609 19:24:41.050300 139663746742080 biobert_predict.py:511] Writing prediction 90000
+INFO:tensorflow:Writing prediction 95000
+I0609 19:29:58.379674 139663746742080 biobert_predict.py:511] Writing prediction 95000
+INFO:tensorflow:Writing prediction 100000
+I0609 19:35:21.308296 139663746742080 biobert_predict.py:511] Writing prediction 100000
+INFO:tensorflow:Writing prediction 105000
+I0609 19:40:37.152574 139663746742080 biobert_predict.py:511] Writing prediction 105000
+INFO:tensorflow:Writing prediction 110000
+I0609 19:46:03.611396 139663746742080 biobert_predict.py:511] Writing prediction 110000
+INFO:tensorflow:Writing prediction 115000
+I0609 19:51:24.586313 139663746742080 biobert_predict.py:511] Writing prediction 115000
+INFO:tensorflow:Writing prediction 120000
+I0609 19:56:47.281375 139663746742080 biobert_predict.py:511] Writing prediction 120000
+INFO:tensorflow:Writing prediction 125000
+I0609 20:02:10.967526 139663746742080 biobert_predict.py:511] Writing prediction 125000
+INFO:tensorflow:Writing prediction 130000
+I0609 20:07:26.968336 139663746742080 biobert_predict.py:511] Writing prediction 130000
+INFO:tensorflow:Writing prediction 135000
+I0609 20:12:52.921747 139663746742080 biobert_predict.py:511] Writing prediction 135000
+INFO:tensorflow:Writing prediction 140000
+I0609 20:18:09.030250 139663746742080 biobert_predict.py:511] Writing prediction 140000
+INFO:tensorflow:Writing prediction 145000
+I0609 20:23:34.699129 139663746742080 biobert_predict.py:511] Writing prediction 145000
+INFO:tensorflow:Writing prediction 150000
+I0609 20:28:50.170196 139663746742080 biobert_predict.py:511] Writing prediction 150000
+INFO:tensorflow:Writing prediction 155000
+I0609 20:34:15.413014 139663746742080 biobert_predict.py:511] Writing prediction 155000
+INFO:tensorflow:Writing prediction 160000
+I0609 20:39:30.634148 139663746742080 biobert_predict.py:511] Writing prediction 160000
+INFO:tensorflow:Writing prediction 165000
+I0609 20:44:53.709252 139663746742080 biobert_predict.py:511] Writing prediction 165000
+INFO:tensorflow:Writing prediction 170000
+I0609 20:50:10.339784 139663746742080 biobert_predict.py:511] Writing prediction 170000
+INFO:tensorflow:Writing prediction 175000
+I0609 20:55:32.259524 139663746742080 biobert_predict.py:511] Writing prediction 175000
+INFO:tensorflow:Writing prediction 180000
+I0609 21:00:47.992653 139663746742080 biobert_predict.py:511] Writing prediction 180000
+INFO:tensorflow:Writing prediction 185000
+I0609 21:06:08.849765 139663746742080 biobert_predict.py:511] Writing prediction 185000
+INFO:tensorflow:Writing prediction 190000
+I0609 21:11:27.889379 139663746742080 biobert_predict.py:511] Writing prediction 190000
+INFO:tensorflow:Writing prediction 195000
+I0609 21:16:47.085411 139663746742080 biobert_predict.py:511] Writing prediction 195000
+INFO:tensorflow:Writing prediction 200000
+I0609 21:22:13.609660 139663746742080 biobert_predict.py:511] Writing prediction 200000
+INFO:tensorflow:Writing prediction 205000
+I0609 21:27:29.709178 139663746742080 biobert_predict.py:511] Writing prediction 205000
+INFO:tensorflow:Writing prediction 210000
+I0609 21:32:57.615385 139663746742080 biobert_predict.py:511] Writing prediction 210000
+INFO:tensorflow:Writing prediction 215000
+I0609 21:38:19.082908 139663746742080 biobert_predict.py:511] Writing prediction 215000
+INFO:tensorflow:Writing prediction 220000
+I0609 21:43:46.951112 139663746742080 biobert_predict.py:511] Writing prediction 220000
+INFO:tensorflow:Writing prediction 225000
+I0609 21:49:04.667349 139663746742080 biobert_predict.py:511] Writing prediction 225000
+INFO:tensorflow:Writing prediction 230000
+I0609 21:54:30.859885 139663746742080 biobert_predict.py:511] Writing prediction 230000
+INFO:tensorflow:Writing prediction 235000
+I0609 21:59:48.353597 139663746742080 biobert_predict.py:511] Writing prediction 235000
+INFO:tensorflow:Writing prediction 240000
+I0609 22:05:10.577630 139663746742080 biobert_predict.py:511] Writing prediction 240000
+INFO:tensorflow:Writing prediction 245000
+I0609 22:10:27.766697 139663746742080 biobert_predict.py:511] Writing prediction 245000
+INFO:tensorflow:Writing prediction 250000
+I0609 22:15:50.108548 139663746742080 biobert_predict.py:511] Writing prediction 250000
+INFO:tensorflow:Writing prediction 255000
+I0609 22:21:07.628292 139663746742080 biobert_predict.py:511] Writing prediction 255000
+INFO:tensorflow:Writing prediction 260000
+I0609 22:26:32.068576 139663746742080 biobert_predict.py:511] Writing prediction 260000
+INFO:tensorflow:Writing prediction 265000
+I0609 22:31:57.452149 139663746742080 biobert_predict.py:511] Writing prediction 265000
+INFO:tensorflow:Writing prediction 270000
+I0609 22:37:34.389139 139663746742080 biobert_predict.py:511] Writing prediction 270000
+INFO:tensorflow:Writing prediction 275000
+I0609 22:42:50.641764 139663746742080 biobert_predict.py:511] Writing prediction 275000
+INFO:tensorflow:Writing prediction 280000
+I0609 22:48:07.662039 139663746742080 biobert_predict.py:511] Writing prediction 280000
+INFO:tensorflow:Writing prediction 285000
+I0609 22:53:35.581904 139663746742080 biobert_predict.py:511] Writing prediction 285000
+INFO:tensorflow:Writing prediction 290000
+I0609 22:58:53.048962 139663746742080 biobert_predict.py:511] Writing prediction 290000
+INFO:tensorflow:Writing prediction 295000
+I0609 23:04:25.507463 139663746742080 biobert_predict.py:511] Writing prediction 295000
+INFO:tensorflow:Writing prediction 300000
+I0609 23:09:41.854831 139663746742080 biobert_predict.py:511] Writing prediction 300000
+INFO:tensorflow:Writing prediction 305000
+I0609 23:14:58.607873 139663746742080 biobert_predict.py:511] Writing prediction 305000
+INFO:tensorflow:Writing prediction 310000
+I0609 23:20:15.681696 139663746742080 biobert_predict.py:511] Writing prediction 310000
+INFO:tensorflow:Writing prediction 315000
+I0609 23:25:41.634994 139663746742080 biobert_predict.py:511] Writing prediction 315000
+INFO:tensorflow:Writing prediction 320000
+I0609 23:30:59.611960 139663746742080 biobert_predict.py:511] Writing prediction 320000
+INFO:tensorflow:Writing prediction 325000
+I0609 23:36:25.341671 139663746742080 biobert_predict.py:511] Writing prediction 325000
+INFO:tensorflow:Writing prediction 330000
+I0609 23:41:47.727607 139663746742080 biobert_predict.py:511] Writing prediction 330000
+INFO:tensorflow:Writing prediction 335000
+I0609 23:47:05.788359 139663746742080 biobert_predict.py:511] Writing prediction 335000
+INFO:tensorflow:Writing prediction 340000
+I0609 23:52:30.309781 139663746742080 biobert_predict.py:511] Writing prediction 340000
+INFO:tensorflow:Writing prediction 345000
+I0609 23:57:49.316532 139663746742080 biobert_predict.py:511] Writing prediction 345000
+INFO:tensorflow:Writing prediction 350000
+I0610 00:03:14.726230 139663746742080 biobert_predict.py:511] Writing prediction 350000
+INFO:tensorflow:Writing prediction 355000
+I0610 00:08:31.986385 139663746742080 biobert_predict.py:511] Writing prediction 355000
+INFO:tensorflow:Writing prediction 360000
+I0610 00:13:55.424927 139663746742080 biobert_predict.py:511] Writing prediction 360000
+INFO:tensorflow:Writing prediction 365000
+I0610 00:19:12.508202 139663746742080 biobert_predict.py:511] Writing prediction 365000
+INFO:tensorflow:Writing prediction 370000
+I0610 00:24:38.959509 139663746742080 biobert_predict.py:511] Writing prediction 370000
+INFO:tensorflow:Writing prediction 375000
+I0610 00:29:53.855385 139663746742080 biobert_predict.py:511] Writing prediction 375000
+INFO:tensorflow:Writing prediction 380000
+I0610 00:35:13.222988 139663746742080 biobert_predict.py:511] Writing prediction 380000
+INFO:tensorflow:Writing prediction 385000
+I0610 00:40:29.003439 139663746742080 biobert_predict.py:511] Writing prediction 385000
+INFO:tensorflow:Writing prediction 390000
+I0610 00:45:53.724929 139663746742080 biobert_predict.py:511] Writing prediction 390000
+INFO:tensorflow:Writing prediction 395000
+I0610 00:51:11.151694 139663746742080 biobert_predict.py:511] Writing prediction 395000
+INFO:tensorflow:Writing prediction 400000
+I0610 00:56:32.833693 139663746742080 biobert_predict.py:511] Writing prediction 400000
+INFO:tensorflow:Writing prediction 405000
+I0610 01:01:53.649215 139663746742080 biobert_predict.py:511] Writing prediction 405000
+INFO:tensorflow:Writing prediction 410000
+I0610 01:07:09.895828 139663746742080 biobert_predict.py:511] Writing prediction 410000
+INFO:tensorflow:Writing prediction 415000
+I0610 01:12:30.534579 139663746742080 biobert_predict.py:511] Writing prediction 415000
+INFO:tensorflow:Writing prediction 420000
+I0610 01:17:46.547570 139663746742080 biobert_predict.py:511] Writing prediction 420000
+INFO:tensorflow:Writing prediction 425000
+I0610 01:23:08.149482 139663746742080 biobert_predict.py:511] Writing prediction 425000
+INFO:tensorflow:Writing prediction 430000
+I0610 01:28:42.372061 139663746742080 biobert_predict.py:511] Writing prediction 430000
+INFO:tensorflow:Writing prediction 435000
+I0610 01:34:16.883059 139663746742080 biobert_predict.py:511] Writing prediction 435000
+INFO:tensorflow:Writing prediction 440000
+I0610 01:40:21.402316 139663746742080 biobert_predict.py:511] Writing prediction 440000
+INFO:tensorflow:Writing prediction 445000
+I0610 01:45:51.779609 139663746742080 biobert_predict.py:511] Writing prediction 445000
+INFO:tensorflow:Writing prediction 450000
+I0610 01:51:11.811533 139663746742080 biobert_predict.py:511] Writing prediction 450000
+INFO:tensorflow:Writing prediction 455000
+I0610 01:56:36.286216 139663746742080 biobert_predict.py:511] Writing prediction 455000
+INFO:tensorflow:Writing prediction 460000
+I0610 02:02:56.957137 139663746742080 biobert_predict.py:511] Writing prediction 460000
+INFO:tensorflow:Writing prediction 465000
+I0610 02:08:17.151806 139663746742080 biobert_predict.py:511] Writing prediction 465000
+INFO:tensorflow:Writing prediction 470000
+I0610 02:13:40.793456 139663746742080 biobert_predict.py:511] Writing prediction 470000
+INFO:tensorflow:Writing prediction 475000
+I0610 02:18:58.365890 139663746742080 biobert_predict.py:511] Writing prediction 475000
+INFO:tensorflow:Writing prediction 480000
+I0610 02:24:23.811702 139663746742080 biobert_predict.py:511] Writing prediction 480000
+INFO:tensorflow:Writing prediction 485000
+I0610 02:29:42.623793 139663746742080 biobert_predict.py:511] Writing prediction 485000
+INFO:tensorflow:Writing prediction 490000
+I0610 02:35:07.279710 139663746742080 biobert_predict.py:511] Writing prediction 490000
+INFO:tensorflow:Writing prediction 495000
+I0610 02:40:25.820768 139663746742080 biobert_predict.py:511] Writing prediction 495000
+INFO:tensorflow:Writing prediction 500000
+I0610 02:45:49.038738 139663746742080 biobert_predict.py:511] Writing prediction 500000
+INFO:tensorflow:Writing prediction 505000
+I0610 02:51:06.193761 139663746742080 biobert_predict.py:511] Writing prediction 505000
+INFO:tensorflow:Writing prediction 510000
+I0610 02:56:32.735892 139663746742080 biobert_predict.py:511] Writing prediction 510000
+INFO:tensorflow:Writing prediction 515000
+I0610 03:01:50.707212 139663746742080 biobert_predict.py:511] Writing prediction 515000
+INFO:tensorflow:Writing prediction 520000
+I0610 03:07:09.696856 139663746742080 biobert_predict.py:511] Writing prediction 520000
+INFO:tensorflow:Writing prediction 525000
+I0610 03:12:33.933024 139663746742080 biobert_predict.py:511] Writing prediction 525000
+INFO:tensorflow:Writing prediction 530000
+I0610 03:17:50.846262 139663746742080 biobert_predict.py:511] Writing prediction 530000
+INFO:tensorflow:Writing prediction 535000
+I0610 03:23:15.036881 139663746742080 biobert_predict.py:511] Writing prediction 535000
+INFO:tensorflow:Writing prediction 540000
+I0610 03:28:31.658533 139663746742080 biobert_predict.py:511] Writing prediction 540000
+INFO:tensorflow:Writing prediction 545000
+I0610 03:33:52.891087 139663746742080 biobert_predict.py:511] Writing prediction 545000
+INFO:tensorflow:Writing prediction 550000
+I0610 03:39:08.468164 139663746742080 biobert_predict.py:511] Writing prediction 550000
+INFO:tensorflow:Writing prediction 555000
+I0610 03:44:30.776542 139663746742080 biobert_predict.py:511] Writing prediction 555000
+INFO:tensorflow:Writing prediction 560000
+I0610 03:49:48.364470 139663746742080 biobert_predict.py:511] Writing prediction 560000
+INFO:tensorflow:Writing prediction 565000
+I0610 03:55:11.939873 139663746742080 biobert_predict.py:511] Writing prediction 565000
+INFO:tensorflow:Writing prediction 570000
+I0610 04:00:30.569846 139663746742080 biobert_predict.py:511] Writing prediction 570000
+INFO:tensorflow:Writing prediction 575000
+I0610 04:05:53.961806 139663746742080 biobert_predict.py:511] Writing prediction 575000
+INFO:tensorflow:Writing prediction 580000
+I0610 04:11:11.418156 139663746742080 biobert_predict.py:511] Writing prediction 580000
+INFO:tensorflow:Writing prediction 585000
+I0610 04:16:30.396987 139663746742080 biobert_predict.py:511] Writing prediction 585000
+INFO:tensorflow:Writing prediction 590000
+I0610 04:21:50.179171 139663746742080 biobert_predict.py:511] Writing prediction 590000
+INFO:tensorflow:Writing prediction 595000
+I0610 04:27:06.678963 139663746742080 biobert_predict.py:511] Writing prediction 595000
+INFO:tensorflow:Writing prediction 600000
+I0610 04:32:28.374113 139663746742080 biobert_predict.py:511] Writing prediction 600000
+INFO:tensorflow:Writing prediction 605000
+I0610 04:37:45.234148 139663746742080 biobert_predict.py:511] Writing prediction 605000
+INFO:tensorflow:Writing prediction 610000
+I0610 04:43:04.993906 139663746742080 biobert_predict.py:511] Writing prediction 610000
+INFO:tensorflow:Writing prediction 615000
+I0610 04:48:22.704320 139663746742080 biobert_predict.py:511] Writing prediction 615000
+INFO:tensorflow:Writing prediction 620000
+I0610 04:53:44.345326 139663746742080 biobert_predict.py:511] Writing prediction 620000
+INFO:tensorflow:Writing prediction 625000
+I0610 04:59:01.601014 139663746742080 biobert_predict.py:511] Writing prediction 625000
+INFO:tensorflow:Writing prediction 630000
+I0610 05:04:20.076563 139663746742080 biobert_predict.py:511] Writing prediction 630000
+INFO:tensorflow:Writing prediction 635000
+I0610 05:09:36.473875 139663746742080 biobert_predict.py:511] Writing prediction 635000
+INFO:tensorflow:Writing prediction 640000
+I0610 05:14:57.041514 139663746742080 biobert_predict.py:511] Writing prediction 640000
+INFO:tensorflow:Writing prediction 645000
+I0610 05:20:15.011897 139663746742080 biobert_predict.py:511] Writing prediction 645000
+INFO:tensorflow:Writing prediction 650000
+I0610 05:25:45.907627 139663746742080 biobert_predict.py:511] Writing prediction 650000
+INFO:tensorflow:Writing prediction 655000
+I0610 05:31:01.852540 139663746742080 biobert_predict.py:511] Writing prediction 655000
+INFO:tensorflow:Writing prediction 660000
+I0610 05:36:24.645848 139663746742080 biobert_predict.py:511] Writing prediction 660000
+INFO:tensorflow:Writing prediction 665000
+I0610 05:41:45.213696 139663746742080 biobert_predict.py:511] Writing prediction 665000
+INFO:tensorflow:Writing prediction 670000
+I0610 05:47:01.274774 139663746742080 biobert_predict.py:511] Writing prediction 670000
+INFO:tensorflow:Writing prediction 675000
+I0610 05:52:19.977295 139663746742080 biobert_predict.py:511] Writing prediction 675000
+INFO:tensorflow:Writing prediction 680000
+I0610 05:57:36.180728 139663746742080 biobert_predict.py:511] Writing prediction 680000
+INFO:tensorflow:Writing prediction 685000
+I0610 06:02:56.798627 139663746742080 biobert_predict.py:511] Writing prediction 685000
+INFO:tensorflow:Writing prediction 690000
+I0610 06:08:14.255716 139663746742080 biobert_predict.py:511] Writing prediction 690000
+INFO:tensorflow:Writing prediction 695000
+I0610 06:13:34.909199 139663746742080 biobert_predict.py:511] Writing prediction 695000
+INFO:tensorflow:Writing prediction 700000
+I0610 06:18:51.920903 139663746742080 biobert_predict.py:511] Writing prediction 700000
+INFO:tensorflow:Writing prediction 705000
+I0610 06:24:12.261530 139663746742080 biobert_predict.py:511] Writing prediction 705000
+INFO:tensorflow:Writing prediction 710000
+I0610 06:29:29.183337 139663746742080 biobert_predict.py:511] Writing prediction 710000
+INFO:tensorflow:Writing prediction 715000
+I0610 06:34:54.917467 139663746742080 biobert_predict.py:511] Writing prediction 715000
+INFO:tensorflow:Writing prediction 720000
+I0610 06:40:11.890964 139663746742080 biobert_predict.py:511] Writing prediction 720000
+INFO:tensorflow:Writing prediction 725000
+I0610 06:45:30.337923 139663746742080 biobert_predict.py:511] Writing prediction 725000
+INFO:tensorflow:Writing prediction 730000
+I0610 06:50:46.470398 139663746742080 biobert_predict.py:511] Writing prediction 730000
+INFO:tensorflow:Writing prediction 735000
+I0610 06:56:05.984992 139663746742080 biobert_predict.py:511] Writing prediction 735000
+INFO:tensorflow:Writing prediction 740000
+I0610 07:01:24.423263 139663746742080 biobert_predict.py:511] Writing prediction 740000
+INFO:tensorflow:Writing prediction 745000
+I0610 07:06:41.192421 139663746742080 biobert_predict.py:511] Writing prediction 745000
+INFO:tensorflow:Writing prediction 750000
+I0610 07:12:04.226642 139663746742080 biobert_predict.py:511] Writing prediction 750000
+INFO:tensorflow:Writing prediction 755000
+I0610 07:17:21.744326 139663746742080 biobert_predict.py:511] Writing prediction 755000
+INFO:tensorflow:Writing prediction 760000
+I0610 07:22:43.408561 139663746742080 biobert_predict.py:511] Writing prediction 760000
+INFO:tensorflow:Writing prediction 765000
+I0610 07:27:59.674340 139663746742080 biobert_predict.py:511] Writing prediction 765000
+INFO:tensorflow:Writing prediction 770000
+I0610 07:33:19.856085 139663746742080 biobert_predict.py:511] Writing prediction 770000
+INFO:tensorflow:Writing prediction 775000
+I0610 07:38:36.349525 139663746742080 biobert_predict.py:511] Writing prediction 775000
+INFO:tensorflow:Writing prediction 780000
+I0610 07:43:55.996557 139663746742080 biobert_predict.py:511] Writing prediction 780000
+INFO:tensorflow:Writing prediction 785000
+I0610 07:49:11.919654 139663746742080 biobert_predict.py:511] Writing prediction 785000
+INFO:tensorflow:Writing prediction 790000
+I0610 07:54:37.426241 139663746742080 biobert_predict.py:511] Writing prediction 790000
+INFO:tensorflow:Writing prediction 795000
+I0610 07:59:54.247941 139663746742080 biobert_predict.py:511] Writing prediction 795000
+INFO:tensorflow:Writing prediction 800000
+I0610 08:05:10.853131 139663746742080 biobert_predict.py:511] Writing prediction 800000
+INFO:tensorflow:Writing prediction 805000
+I0610 08:10:27.379128 139663746742080 biobert_predict.py:511] Writing prediction 805000
+INFO:tensorflow:Writing prediction 810000
+I0610 08:15:45.475224 139663746742080 biobert_predict.py:511] Writing prediction 810000
+INFO:tensorflow:Writing prediction 815000
+I0610 08:21:03.141829 139663746742080 biobert_predict.py:511] Writing prediction 815000
+INFO:tensorflow:Writing prediction 820000
+I0610 08:26:25.413594 139663746742080 biobert_predict.py:511] Writing prediction 820000
+INFO:tensorflow:Writing prediction 825000
+I0610 08:31:45.467061 139663746742080 biobert_predict.py:511] Writing prediction 825000
+INFO:tensorflow:Writing prediction 830000
+I0610 08:37:02.346482 139663746742080 biobert_predict.py:511] Writing prediction 830000
+INFO:tensorflow:Writing prediction 835000
+I0610 08:42:21.663846 139663746742080 biobert_predict.py:511] Writing prediction 835000
+INFO:tensorflow:Writing prediction 840000
+I0610 08:47:37.346420 139663746742080 biobert_predict.py:511] Writing prediction 840000
+INFO:tensorflow:Writing prediction 845000
+I0610 08:52:56.700940 139663746742080 biobert_predict.py:511] Writing prediction 845000
+INFO:tensorflow:Writing prediction 850000
+I0610 08:58:12.429060 139663746742080 biobert_predict.py:511] Writing prediction 850000
+INFO:tensorflow:Writing prediction 855000
+I0610 09:03:32.154236 139663746742080 biobert_predict.py:511] Writing prediction 855000
+INFO:tensorflow:Writing prediction 860000
+I0610 09:08:47.378604 139663746742080 biobert_predict.py:511] Writing prediction 860000
+INFO:tensorflow:Writing prediction 865000
+I0610 09:14:08.600469 139663746742080 biobert_predict.py:511] Writing prediction 865000
+INFO:tensorflow:Writing prediction 870000
+I0610 09:19:24.798038 139663746742080 biobert_predict.py:511] Writing prediction 870000
+INFO:tensorflow:Writing prediction 875000
+I0610 09:24:46.684795 139663746742080 biobert_predict.py:511] Writing prediction 875000
+INFO:tensorflow:Writing prediction 880000
+I0610 09:30:02.423937 139663746742080 biobert_predict.py:511] Writing prediction 880000
+INFO:tensorflow:Writing prediction 885000
+I0610 09:35:23.973720 139663746742080 biobert_predict.py:511] Writing prediction 885000
+INFO:tensorflow:Writing prediction 890000
+I0610 09:40:38.666917 139663746742080 biobert_predict.py:511] Writing prediction 890000
+INFO:tensorflow:Writing prediction 895000
+I0610 09:46:05.734071 139663746742080 biobert_predict.py:511] Writing prediction 895000
+INFO:tensorflow:Writing prediction 900000
+I0610 09:51:22.872541 139663746742080 biobert_predict.py:511] Writing prediction 900000
+INFO:tensorflow:Writing prediction 905000
+I0610 09:56:42.673761 139663746742080 biobert_predict.py:511] Writing prediction 905000
+INFO:tensorflow:Writing prediction 910000
+I0610 10:02:02.456345 139663746742080 biobert_predict.py:511] Writing prediction 910000
+INFO:tensorflow:Writing prediction 915000
+I0610 10:07:18.457903 139663746742080 biobert_predict.py:511] Writing prediction 915000
+INFO:tensorflow:Writing prediction 920000
+I0610 10:12:41.264335 139663746742080 biobert_predict.py:511] Writing prediction 920000
+INFO:tensorflow:Writing prediction 925000
+I0610 10:17:56.683362 139663746742080 biobert_predict.py:511] Writing prediction 925000
+INFO:tensorflow:Writing prediction 930000
+I0610 10:23:11.780123 139663746742080 biobert_predict.py:511] Writing prediction 930000
+INFO:tensorflow:Writing prediction 935000
+I0610 10:28:26.897868 139663746742080 biobert_predict.py:511] Writing prediction 935000
+INFO:tensorflow:Writing prediction 940000
+I0610 10:33:47.430325 139663746742080 biobert_predict.py:511] Writing prediction 940000
+INFO:tensorflow:Writing prediction 945000
+I0610 10:39:02.703871 139663746742080 biobert_predict.py:511] Writing prediction 945000
+INFO:tensorflow:Writing prediction 950000
+I0610 10:44:20.860575 139663746742080 biobert_predict.py:511] Writing prediction 950000
+INFO:tensorflow:Writing prediction 955000
+I0610 10:49:36.887014 139663746742080 biobert_predict.py:511] Writing prediction 955000
+INFO:tensorflow:Writing prediction 960000
+I0610 10:55:04.308382 139663746742080 biobert_predict.py:511] Writing prediction 960000
+INFO:tensorflow:Writing prediction 965000
+I0610 11:00:20.233085 139663746742080 biobert_predict.py:511] Writing prediction 965000
+INFO:tensorflow:Writing prediction 970000
+I0610 11:05:36.056856 139663746742080 biobert_predict.py:511] Writing prediction 970000
+INFO:tensorflow:Writing prediction 975000
+I0610 11:10:52.175283 139663746742080 biobert_predict.py:511] Writing prediction 975000
+INFO:tensorflow:Writing prediction 980000
+I0610 11:16:14.190520 139663746742080 biobert_predict.py:511] Writing prediction 980000
+INFO:tensorflow:Writing prediction 985000
+I0610 11:21:34.282647 139663746742080 biobert_predict.py:511] Writing prediction 985000
+INFO:tensorflow:Writing prediction 990000
+I0610 11:26:50.965845 139663746742080 biobert_predict.py:511] Writing prediction 990000
+INFO:tensorflow:Writing prediction 995000
+I0610 11:32:09.065374 139663746742080 biobert_predict.py:511] Writing prediction 995000
+INFO:tensorflow:Writing prediction 1000000
+I0610 11:37:25.077075 139663746742080 biobert_predict.py:511] Writing prediction 1000000
+INFO:tensorflow:Writing prediction 1005000
+I0610 11:42:44.836870 139663746742080 biobert_predict.py:511] Writing prediction 1005000
+INFO:tensorflow:Writing prediction 1010000
+I0610 11:48:01.388243 139663746742080 biobert_predict.py:511] Writing prediction 1010000
+INFO:tensorflow:Writing prediction 1015000
+I0610 11:53:24.125468 139663746742080 biobert_predict.py:511] Writing prediction 1015000
+INFO:tensorflow:Writing prediction 1020000
+I0610 11:58:39.604350 139663746742080 biobert_predict.py:511] Writing prediction 1020000
+INFO:tensorflow:Writing prediction 1025000
+I0610 12:04:04.829897 139663746742080 biobert_predict.py:511] Writing prediction 1025000
+INFO:tensorflow:Writing prediction 1030000
+I0610 12:09:20.453688 139663746742080 biobert_predict.py:511] Writing prediction 1030000
+INFO:tensorflow:Writing prediction 1035000
+I0610 12:14:36.610319 139663746742080 biobert_predict.py:511] Writing prediction 1035000
+INFO:tensorflow:Writing prediction 1040000
+I0610 12:19:52.453015 139663746742080 biobert_predict.py:511] Writing prediction 1040000
+INFO:tensorflow:Writing prediction 1045000
+I0610 12:25:11.860938 139663746742080 biobert_predict.py:511] Writing prediction 1045000
+INFO:tensorflow:Writing prediction 1050000
+I0610 12:30:27.689677 139663746742080 biobert_predict.py:511] Writing prediction 1050000
+INFO:tensorflow:Writing prediction 1055000
+I0610 12:35:48.078842 139663746742080 biobert_predict.py:511] Writing prediction 1055000
+INFO:tensorflow:Writing prediction 1060000
+I0610 12:41:03.551478 139663746742080 biobert_predict.py:511] Writing prediction 1060000
+INFO:tensorflow:Writing prediction 1065000
+I0610 12:46:22.148498 139663746742080 biobert_predict.py:511] Writing prediction 1065000
+INFO:tensorflow:Writing prediction 1070000
+I0610 12:51:41.882705 139663746742080 biobert_predict.py:511] Writing prediction 1070000
+INFO:tensorflow:Writing prediction 1075000
+I0610 12:56:58.929653 139663746742080 biobert_predict.py:511] Writing prediction 1075000
+INFO:tensorflow:Writing prediction 1080000
+I0610 13:02:17.517457 139663746742080 biobert_predict.py:511] Writing prediction 1080000
+INFO:tensorflow:Writing prediction 1085000
+I0610 13:07:31.325536 139663746742080 biobert_predict.py:511] Writing prediction 1085000
+INFO:tensorflow:Writing prediction 1090000
+I0610 13:12:52.035291 139663746742080 biobert_predict.py:511] Writing prediction 1090000
+INFO:tensorflow:Writing prediction 1095000
+I0610 13:18:07.182212 139663746742080 biobert_predict.py:511] Writing prediction 1095000
+INFO:tensorflow:Writing prediction 1100000
+I0610 13:23:28.550138 139663746742080 biobert_predict.py:511] Writing prediction 1100000
+INFO:tensorflow:Writing prediction 1105000
+I0610 13:28:51.303197 139663746742080 biobert_predict.py:511] Writing prediction 1105000
+INFO:tensorflow:Writing prediction 1110000
+I0610 13:34:16.911090 139663746742080 biobert_predict.py:511] Writing prediction 1110000
+INFO:tensorflow:Writing prediction 1115000
+I0610 13:40:17.083464 139663746742080 biobert_predict.py:511] Writing prediction 1115000
+INFO:tensorflow:Writing prediction 1120000
+I0610 13:46:08.054841 139663746742080 biobert_predict.py:511] Writing prediction 1120000
+INFO:tensorflow:Writing prediction 1125000
+I0610 13:51:30.951165 139663746742080 biobert_predict.py:511] Writing prediction 1125000
+INFO:tensorflow:Writing prediction 1130000
+I0610 13:57:05.706836 139663746742080 biobert_predict.py:511] Writing prediction 1130000
+INFO:tensorflow:Writing prediction 1135000
+I0610 14:03:04.286670 139663746742080 biobert_predict.py:511] Writing prediction 1135000
+INFO:tensorflow:Writing prediction 1140000
+I0610 14:08:22.730945 139663746742080 biobert_predict.py:511] Writing prediction 1140000
+INFO:tensorflow:Writing prediction 1145000
+I0610 14:13:44.584446 139663746742080 biobert_predict.py:511] Writing prediction 1145000
+INFO:tensorflow:Writing prediction 1150000
+I0610 14:18:59.965944 139663746742080 biobert_predict.py:511] Writing prediction 1150000
+INFO:tensorflow:Writing prediction 1155000
+I0610 14:24:19.837369 139663746742080 biobert_predict.py:511] Writing prediction 1155000
+INFO:tensorflow:Writing prediction 1160000
+I0610 14:29:35.171857 139663746742080 biobert_predict.py:511] Writing prediction 1160000
+INFO:tensorflow:Writing prediction 1165000
+I0610 14:35:03.463103 139663746742080 biobert_predict.py:511] Writing prediction 1165000
+INFO:tensorflow:Writing prediction 1170000
+I0610 14:40:19.366960 139663746742080 biobert_predict.py:511] Writing prediction 1170000
+INFO:tensorflow:Writing prediction 1175000
+I0610 14:45:33.484846 139663746742080 biobert_predict.py:511] Writing prediction 1175000
+INFO:tensorflow:Writing prediction 1180000
+I0610 14:50:47.635029 139663746742080 biobert_predict.py:511] Writing prediction 1180000
+INFO:tensorflow:Writing prediction 1185000
+I0610 14:56:15.487988 139663746742080 biobert_predict.py:511] Writing prediction 1185000
+INFO:tensorflow:Writing prediction 1190000
+I0610 15:01:33.587611 139663746742080 biobert_predict.py:511] Writing prediction 1190000
+INFO:tensorflow:Writing prediction 1195000
+I0610 15:06:55.193518 139663746742080 biobert_predict.py:511] Writing prediction 1195000
+INFO:tensorflow:Writing prediction 1200000
+I0610 15:12:17.227532 139663746742080 biobert_predict.py:511] Writing prediction 1200000
+INFO:tensorflow:Writing prediction 1205000
+I0610 15:17:33.437262 139663746742080 biobert_predict.py:511] Writing prediction 1205000
+INFO:tensorflow:Writing prediction 1210000
+I0610 15:22:58.608154 139663746742080 biobert_predict.py:511] Writing prediction 1210000
+INFO:tensorflow:Writing prediction 1215000
+I0610 15:28:13.160496 139663746742080 biobert_predict.py:511] Writing prediction 1215000
+INFO:tensorflow:Writing prediction 1220000
+I0610 15:33:32.345451 139663746742080 biobert_predict.py:511] Writing prediction 1220000
+INFO:tensorflow:Writing prediction 1225000
+I0610 15:38:47.481657 139663746742080 biobert_predict.py:511] Writing prediction 1225000
+INFO:tensorflow:Writing prediction 1230000
+I0610 15:44:11.673167 139663746742080 biobert_predict.py:511] Writing prediction 1230000
+INFO:tensorflow:Writing prediction 1235000
+I0610 15:49:26.952368 139663746742080 biobert_predict.py:511] Writing prediction 1235000
+INFO:tensorflow:Writing prediction 1240000
+I0610 15:54:48.354330 139663746742080 biobert_predict.py:511] Writing prediction 1240000
+INFO:tensorflow:Writing prediction 1245000
+I0610 16:00:03.844821 139663746742080 biobert_predict.py:511] Writing prediction 1245000
+INFO:tensorflow:Writing prediction 1250000
+I0610 16:05:24.894039 139663746742080 biobert_predict.py:511] Writing prediction 1250000
+INFO:tensorflow:Writing prediction 1255000
+I0610 16:10:40.305594 139663746742080 biobert_predict.py:511] Writing prediction 1255000
+INFO:tensorflow:Writing prediction 1260000
+I0610 16:15:59.444958 139663746742080 biobert_predict.py:511] Writing prediction 1260000
+INFO:tensorflow:Writing prediction 1265000
+I0610 16:21:16.818804 139663746742080 biobert_predict.py:511] Writing prediction 1265000
+INFO:tensorflow:Writing prediction 1270000
+I0610 16:26:41.409772 139663746742080 biobert_predict.py:511] Writing prediction 1270000
+INFO:tensorflow:Writing prediction 1275000
+I0610 16:32:03.021387 139663746742080 biobert_predict.py:511] Writing prediction 1275000
+INFO:tensorflow:Writing prediction 1280000
+I0610 16:37:19.203641 139663746742080 biobert_predict.py:511] Writing prediction 1280000
+INFO:tensorflow:Writing prediction 1285000
+I0610 16:42:41.039537 139663746742080 biobert_predict.py:511] Writing prediction 1285000
+INFO:tensorflow:Writing prediction 1290000
+I0610 16:47:56.458615 139663746742080 biobert_predict.py:511] Writing prediction 1290000
+INFO:tensorflow:Writing prediction 1295000
+I0610 16:53:28.437675 139663746742080 biobert_predict.py:511] Writing prediction 1295000
+INFO:tensorflow:Writing prediction 1300000
+I0610 16:58:45.641688 139663746742080 biobert_predict.py:511] Writing prediction 1300000
+INFO:tensorflow:Writing prediction 1305000
+I0610 17:04:02.549467 139663746742080 biobert_predict.py:511] Writing prediction 1305000
+INFO:tensorflow:Writing prediction 1310000
+I0610 17:09:19.342860 139663746742080 biobert_predict.py:511] Writing prediction 1310000
+INFO:tensorflow:Writing prediction 1315000
+I0610 17:14:40.866292 139663746742080 biobert_predict.py:511] Writing prediction 1315000
+INFO:tensorflow:Writing prediction 1320000
+I0610 17:19:56.007689 139663746742080 biobert_predict.py:511] Writing prediction 1320000
+INFO:tensorflow:Writing prediction 1325000
+I0610 17:25:22.449096 139663746742080 biobert_predict.py:511] Writing prediction 1325000
+INFO:tensorflow:Writing prediction 1330000
+I0610 17:30:39.391067 139663746742080 biobert_predict.py:511] Writing prediction 1330000
+INFO:tensorflow:Writing prediction 1335000
+I0610 17:36:12.137987 139663746742080 biobert_predict.py:511] Writing prediction 1335000
+INFO:tensorflow:Writing prediction 1340000
+I0610 17:41:32.165317 139663746742080 biobert_predict.py:511] Writing prediction 1340000
+INFO:tensorflow:Writing prediction 1345000
+I0610 17:46:50.238772 139663746742080 biobert_predict.py:511] Writing prediction 1345000
+INFO:tensorflow:Writing prediction 1350000
+I0610 17:52:19.167924 139663746742080 biobert_predict.py:511] Writing prediction 1350000
+INFO:tensorflow:Writing prediction 1355000
+I0610 17:57:34.883044 139663746742080 biobert_predict.py:511] Writing prediction 1355000
+INFO:tensorflow:Writing prediction 1360000
+I0610 18:02:58.904869 139663746742080 biobert_predict.py:511] Writing prediction 1360000
+INFO:tensorflow:Writing prediction 1365000
+I0610 18:08:14.231713 139663746742080 biobert_predict.py:511] Writing prediction 1365000
+INFO:tensorflow:prediction_loop marked as finished
+I0610 18:10:27.091493 139663746742080 error_handling.py:101] prediction_loop marked as finished
+INFO:tensorflow:prediction_loop marked as finished
+I0610 18:10:27.092095 139663746742080 error_handling.py:101] prediction_loop marked as finished
+BB for GO_MF-ids
+mkdir: cannot create directory ‘../data/biobert/GO_MF-ids’: File exists
+WARNING:tensorflow:From biobert_predict.py:519: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0610 18:10:30.679641 140630861035328 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0610 18:10:30.679828 140630861035328 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0610 18:10:30.681663 140630861035328 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0610 18:10:30.682529 140630861035328 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fe58ad2dbf8>) includes params argument, but params are not passed to Estimator.
+W0610 18:10:31.624827 140630861035328 estimator.py:1994] Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fe58ad2dbf8>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Using config: {'_model_dir': 'models/GO_MF-ids', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fe5878870b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+I0610 18:10:31.627271 140630861035328 estimator.py:212] Using config: {'_model_dir': 'models/GO_MF-ids', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fe5878870b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+INFO:tensorflow:_TPUContext: eval_on_tpu True
+I0610 18:10:31.628066 140630861035328 tpu_context.py:220] _TPUContext: eval_on_tpu True
+WARNING:tensorflow:eval_on_tpu ignored because use_tpu is False.
+W0610 18:10:31.628563 140630861035328 tpu_context.py:222] eval_on_tpu ignored because use_tpu is False.
+WARNING:tensorflow:From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0610 18:10:31.631003 140630861035328 module_wrapper.py:139] From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0610 18:10:40.454908 140630861035328 module_wrapper.py:139] From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Serializing predictions...
+I0610 18:10:40.455297 140630861035328 biobert_predict.py:504] Serializing predictions...
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+W0610 18:10:40.487918 140630861035328 deprecation.py:506] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+W0610 18:10:40.520843 140630861035328 deprecation.py:323] From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+W0610 18:10:40.521094 140630861035328 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+W0610 18:10:40.618600 140630861035328 module_wrapper.py:139] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0610 18:10:40.746251 140630861035328 deprecation.py:323] From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Calling model_fn.
+I0610 18:10:40.760812 140630861035328 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:Running infer on CPU
+I0610 18:10:40.761047 140630861035328 tpu_estimator.py:3124] Running infer on CPU
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0610 18:10:40.764080 140630861035328 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0610 18:10:40.765475 140630861035328 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+W0610 18:10:40.791646 140630861035328 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+W0610 18:10:40.838780 140630861035328 deprecation.py:323] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0610 18:10:40.840219 140630861035328 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+W0610 18:10:40.924068 140630861035328 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+WARNING:tensorflow:From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0610 18:10:42.455427 140630861035328 module_wrapper.py:139] From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+W0610 18:10:42.459822 140630861035328 module_wrapper.py:139] From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+INFO:tensorflow:Done calling model_fn.
+I0610 18:10:42.969315 140630861035328 estimator.py:1150] Done calling model_fn.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0610 18:10:43.097002 140630861035328 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO:tensorflow:Graph was finalized.
+I0610 18:10:43.369398 140630861035328 monitored_session.py:240] Graph was finalized.
+2021-06-10 18:10:43.369856: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-06-10 18:10:43.409142: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2021-06-10 18:10:43.413315: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b0cb5d4840 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-10 18:10:43.413383: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-10 18:10:43.415636: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-06-10 18:10:43.415652: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-06-10 18:10:43.415672: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lamone): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from models/GO_MF-ids/model.ckpt-52710
+I0610 18:10:43.421073 140630861035328 saver.py:1284] Restoring parameters from models/GO_MF-ids/model.ckpt-52710
+INFO:tensorflow:Running local_init_op.
+I0610 18:10:47.380987 140630861035328 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0610 18:10:47.450781 140630861035328 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Writing prediction 0
+I0610 18:10:48.838463 140630861035328 biobert_predict.py:511] Writing prediction 0
+INFO:tensorflow:Writing prediction 5000
+I0610 18:16:11.342396 140630861035328 biobert_predict.py:511] Writing prediction 5000
+INFO:tensorflow:Writing prediction 10000
+I0610 18:21:35.535695 140630861035328 biobert_predict.py:511] Writing prediction 10000
+INFO:tensorflow:Writing prediction 15000
+I0610 18:27:03.786256 140630861035328 biobert_predict.py:511] Writing prediction 15000
+INFO:tensorflow:Writing prediction 20000
+I0610 18:32:22.805410 140630861035328 biobert_predict.py:511] Writing prediction 20000
+INFO:tensorflow:Writing prediction 25000
+I0610 18:37:41.196665 140630861035328 biobert_predict.py:511] Writing prediction 25000
+INFO:tensorflow:Writing prediction 30000
+I0610 18:43:09.795837 140630861035328 biobert_predict.py:511] Writing prediction 30000
+INFO:tensorflow:Writing prediction 35000
+I0610 18:48:28.526565 140630861035328 biobert_predict.py:511] Writing prediction 35000
+INFO:tensorflow:Writing prediction 40000
+I0610 18:53:56.528175 140630861035328 biobert_predict.py:511] Writing prediction 40000
+INFO:tensorflow:Writing prediction 45000
+I0610 18:59:15.465739 140630861035328 biobert_predict.py:511] Writing prediction 45000
+INFO:tensorflow:Writing prediction 50000
+I0610 19:04:42.613249 140630861035328 biobert_predict.py:511] Writing prediction 50000
+INFO:tensorflow:Writing prediction 55000
+I0610 19:10:01.946459 140630861035328 biobert_predict.py:511] Writing prediction 55000
+INFO:tensorflow:Writing prediction 60000
+I0610 19:15:30.384573 140630861035328 biobert_predict.py:511] Writing prediction 60000
+INFO:tensorflow:Writing prediction 65000
+I0610 19:20:51.451757 140630861035328 biobert_predict.py:511] Writing prediction 65000
+INFO:tensorflow:Writing prediction 70000
+I0610 19:26:18.997471 140630861035328 biobert_predict.py:511] Writing prediction 70000
+INFO:tensorflow:Writing prediction 75000
+I0610 19:31:44.706055 140630861035328 biobert_predict.py:511] Writing prediction 75000
+INFO:tensorflow:Writing prediction 80000
+I0610 19:37:04.332005 140630861035328 biobert_predict.py:511] Writing prediction 80000
+INFO:tensorflow:Writing prediction 85000
+I0610 19:42:30.566586 140630861035328 biobert_predict.py:511] Writing prediction 85000
+INFO:tensorflow:Writing prediction 90000
+I0610 19:47:49.173404 140630861035328 biobert_predict.py:511] Writing prediction 90000
+INFO:tensorflow:Writing prediction 95000
+I0610 19:53:15.292098 140630861035328 biobert_predict.py:511] Writing prediction 95000
+INFO:tensorflow:Writing prediction 100000
+I0610 19:58:34.767786 140630861035328 biobert_predict.py:511] Writing prediction 100000
+INFO:tensorflow:Writing prediction 105000
+I0610 20:04:03.576399 140630861035328 biobert_predict.py:511] Writing prediction 105000
+INFO:tensorflow:Writing prediction 110000
+I0610 20:09:23.742472 140630861035328 biobert_predict.py:511] Writing prediction 110000
+INFO:tensorflow:Writing prediction 115000
+I0610 20:14:47.525636 140630861035328 biobert_predict.py:511] Writing prediction 115000
+INFO:tensorflow:Writing prediction 120000
+I0610 20:20:05.045623 140630861035328 biobert_predict.py:511] Writing prediction 120000
+INFO:tensorflow:Writing prediction 125000
+I0610 20:25:32.506565 140630861035328 biobert_predict.py:511] Writing prediction 125000
+INFO:tensorflow:Writing prediction 130000
+I0610 20:30:51.832367 140630861035328 biobert_predict.py:511] Writing prediction 130000
+INFO:tensorflow:Writing prediction 135000
+I0610 20:36:15.133859 140630861035328 biobert_predict.py:511] Writing prediction 135000
+INFO:tensorflow:Writing prediction 140000
+I0610 20:41:40.670833 140630861035328 biobert_predict.py:511] Writing prediction 140000
+INFO:tensorflow:Writing prediction 145000
+I0610 20:47:01.412717 140630861035328 biobert_predict.py:511] Writing prediction 145000
+INFO:tensorflow:Writing prediction 150000
+I0610 20:52:20.502139 140630861035328 biobert_predict.py:511] Writing prediction 150000
+INFO:tensorflow:Writing prediction 155000
+I0610 20:57:39.302750 140630861035328 biobert_predict.py:511] Writing prediction 155000
+INFO:tensorflow:Writing prediction 160000
+I0610 21:03:05.585918 140630861035328 biobert_predict.py:511] Writing prediction 160000
+INFO:tensorflow:Writing prediction 165000
+I0610 21:08:24.175832 140630861035328 biobert_predict.py:511] Writing prediction 165000
+INFO:tensorflow:Writing prediction 170000
+I0610 21:13:56.826318 140630861035328 biobert_predict.py:511] Writing prediction 170000
+INFO:tensorflow:Writing prediction 175000
+I0610 21:19:13.509887 140630861035328 biobert_predict.py:511] Writing prediction 175000
+INFO:tensorflow:Writing prediction 180000
+I0610 21:24:30.423818 140630861035328 biobert_predict.py:511] Writing prediction 180000
+INFO:tensorflow:Writing prediction 185000
+I0610 21:29:47.113564 140630861035328 biobert_predict.py:511] Writing prediction 185000
+INFO:tensorflow:Writing prediction 190000
+I0610 21:35:19.039935 140630861035328 biobert_predict.py:511] Writing prediction 190000
+INFO:tensorflow:Writing prediction 195000
+I0610 21:40:35.352935 140630861035328 biobert_predict.py:511] Writing prediction 195000
+INFO:tensorflow:Writing prediction 200000
+I0610 21:45:59.422806 140630861035328 biobert_predict.py:511] Writing prediction 200000
+INFO:tensorflow:Writing prediction 205000
+I0610 21:51:16.616822 140630861035328 biobert_predict.py:511] Writing prediction 205000
+INFO:tensorflow:Writing prediction 210000
+I0610 21:56:43.632279 140630861035328 biobert_predict.py:511] Writing prediction 210000
+INFO:tensorflow:Writing prediction 215000
+I0610 22:02:10.908754 140630861035328 biobert_predict.py:511] Writing prediction 215000
+INFO:tensorflow:Writing prediction 220000
+I0610 22:07:28.236949 140630861035328 biobert_predict.py:511] Writing prediction 220000
+INFO:tensorflow:Writing prediction 225000
+I0610 22:12:49.194654 140630861035328 biobert_predict.py:511] Writing prediction 225000
+INFO:tensorflow:Writing prediction 230000
+I0610 22:18:06.898623 140630861035328 biobert_predict.py:511] Writing prediction 230000
+INFO:tensorflow:Writing prediction 235000
+I0610 22:23:31.577027 140630861035328 biobert_predict.py:511] Writing prediction 235000
+INFO:tensorflow:Writing prediction 240000
+I0610 22:28:47.953811 140630861035328 biobert_predict.py:511] Writing prediction 240000
+INFO:tensorflow:Writing prediction 245000
+I0610 22:34:10.641455 140630861035328 biobert_predict.py:511] Writing prediction 245000
+INFO:tensorflow:Writing prediction 250000
+I0610 22:39:27.632881 140630861035328 biobert_predict.py:511] Writing prediction 250000
+INFO:tensorflow:Writing prediction 255000
+I0610 22:44:51.684392 140630861035328 biobert_predict.py:511] Writing prediction 255000
+INFO:tensorflow:Writing prediction 260000
+I0610 22:50:15.931686 140630861035328 biobert_predict.py:511] Writing prediction 260000
+INFO:tensorflow:Writing prediction 265000
+I0610 22:55:44.263286 140630861035328 biobert_predict.py:511] Writing prediction 265000
+INFO:tensorflow:Writing prediction 270000
+I0610 23:01:15.910417 140630861035328 biobert_predict.py:511] Writing prediction 270000
+INFO:tensorflow:Writing prediction 275000
+I0610 23:06:54.304447 140630861035328 biobert_predict.py:511] Writing prediction 275000
+INFO:tensorflow:Writing prediction 280000
+I0610 23:12:45.493672 140630861035328 biobert_predict.py:511] Writing prediction 280000
+INFO:tensorflow:Writing prediction 285000
+I0610 23:18:16.325902 140630861035328 biobert_predict.py:511] Writing prediction 285000
+INFO:tensorflow:Writing prediction 290000
+I0610 23:23:37.354022 140630861035328 biobert_predict.py:511] Writing prediction 290000
+INFO:tensorflow:Writing prediction 295000
+I0610 23:28:58.556318 140630861035328 biobert_predict.py:511] Writing prediction 295000
+INFO:tensorflow:Writing prediction 300000
+I0610 23:34:34.713449 140630861035328 biobert_predict.py:511] Writing prediction 300000
+INFO:tensorflow:Writing prediction 305000
+I0610 23:40:05.936475 140630861035328 biobert_predict.py:511] Writing prediction 305000
+INFO:tensorflow:Writing prediction 310000
+I0610 23:45:50.455191 140630861035328 biobert_predict.py:511] Writing prediction 310000
+INFO:tensorflow:Writing prediction 315000
+I0610 23:51:14.997743 140630861035328 biobert_predict.py:511] Writing prediction 315000
+INFO:tensorflow:Writing prediction 320000
+I0610 23:56:33.553774 140630861035328 biobert_predict.py:511] Writing prediction 320000
+INFO:tensorflow:Writing prediction 325000
+I0611 00:01:59.409408 140630861035328 biobert_predict.py:511] Writing prediction 325000
+INFO:tensorflow:Writing prediction 330000
+I0611 00:07:19.813209 140630861035328 biobert_predict.py:511] Writing prediction 330000
+INFO:tensorflow:Writing prediction 335000
+I0611 00:12:46.585088 140630861035328 biobert_predict.py:511] Writing prediction 335000
+INFO:tensorflow:Writing prediction 340000
+I0611 00:18:12.359749 140630861035328 biobert_predict.py:511] Writing prediction 340000
+INFO:tensorflow:Writing prediction 345000
+I0611 00:23:42.083494 140630861035328 biobert_predict.py:511] Writing prediction 345000
+INFO:tensorflow:Writing prediction 350000
+I0611 00:29:06.315563 140630861035328 biobert_predict.py:511] Writing prediction 350000
+INFO:tensorflow:Writing prediction 355000
+I0611 00:34:36.846490 140630861035328 biobert_predict.py:511] Writing prediction 355000
+INFO:tensorflow:Writing prediction 360000
+I0611 00:40:00.213011 140630861035328 biobert_predict.py:511] Writing prediction 360000
+INFO:tensorflow:Writing prediction 365000
+I0611 00:45:26.806384 140630861035328 biobert_predict.py:511] Writing prediction 365000
+INFO:tensorflow:Writing prediction 370000
+I0611 00:50:44.591885 140630861035328 biobert_predict.py:511] Writing prediction 370000
+INFO:tensorflow:Writing prediction 375000
+I0611 00:56:09.313201 140630861035328 biobert_predict.py:511] Writing prediction 375000
+INFO:tensorflow:Writing prediction 380000
+I0611 01:01:30.997603 140630861035328 biobert_predict.py:511] Writing prediction 380000
+INFO:tensorflow:Writing prediction 385000
+I0611 01:06:51.475468 140630861035328 biobert_predict.py:511] Writing prediction 385000
+INFO:tensorflow:Writing prediction 390000
+I0611 01:12:12.266783 140630861035328 biobert_predict.py:511] Writing prediction 390000
+INFO:tensorflow:Writing prediction 395000
+I0611 01:17:30.459380 140630861035328 biobert_predict.py:511] Writing prediction 395000
+INFO:tensorflow:Writing prediction 400000
+I0611 01:22:52.457170 140630861035328 biobert_predict.py:511] Writing prediction 400000
+INFO:tensorflow:Writing prediction 405000
+I0611 01:28:13.887740 140630861035328 biobert_predict.py:511] Writing prediction 405000
+INFO:tensorflow:Writing prediction 410000
+I0611 01:33:59.075560 140630861035328 biobert_predict.py:511] Writing prediction 410000
+INFO:tensorflow:Writing prediction 415000
+I0611 01:40:05.724332 140630861035328 biobert_predict.py:511] Writing prediction 415000
+INFO:tensorflow:Writing prediction 420000
+I0611 01:46:16.902076 140630861035328 biobert_predict.py:511] Writing prediction 420000
+INFO:tensorflow:Writing prediction 425000
+I0611 01:51:41.570842 140630861035328 biobert_predict.py:511] Writing prediction 425000
+INFO:tensorflow:Writing prediction 430000
+I0611 01:57:12.622781 140630861035328 biobert_predict.py:511] Writing prediction 430000
+INFO:tensorflow:Writing prediction 435000
+I0611 02:03:16.374230 140630861035328 biobert_predict.py:511] Writing prediction 435000
+INFO:tensorflow:Writing prediction 440000
+I0611 02:08:44.738953 140630861035328 biobert_predict.py:511] Writing prediction 440000
+INFO:tensorflow:Writing prediction 445000
+I0611 02:14:08.094424 140630861035328 biobert_predict.py:511] Writing prediction 445000
+INFO:tensorflow:Writing prediction 450000
+I0611 02:19:25.545712 140630861035328 biobert_predict.py:511] Writing prediction 450000
+INFO:tensorflow:Writing prediction 455000
+I0611 02:24:48.547078 140630861035328 biobert_predict.py:511] Writing prediction 455000
+INFO:tensorflow:Writing prediction 460000
+I0611 02:30:07.630284 140630861035328 biobert_predict.py:511] Writing prediction 460000
+INFO:tensorflow:Writing prediction 465000
+I0611 02:35:31.177259 140630861035328 biobert_predict.py:511] Writing prediction 465000
+INFO:tensorflow:Writing prediction 470000
+I0611 02:40:49.197398 140630861035328 biobert_predict.py:511] Writing prediction 470000
+INFO:tensorflow:Writing prediction 475000
+I0611 02:46:09.462391 140630861035328 biobert_predict.py:511] Writing prediction 475000
+INFO:tensorflow:Writing prediction 480000
+I0611 02:51:27.984483 140630861035328 biobert_predict.py:511] Writing prediction 480000
+INFO:tensorflow:Writing prediction 485000
+I0611 02:56:49.692392 140630861035328 biobert_predict.py:511] Writing prediction 485000
+INFO:tensorflow:Writing prediction 490000
+I0611 03:02:16.726876 140630861035328 biobert_predict.py:511] Writing prediction 490000
+INFO:tensorflow:Writing prediction 495000
+I0611 03:07:35.799481 140630861035328 biobert_predict.py:511] Writing prediction 495000
+INFO:tensorflow:Writing prediction 500000
+I0611 03:12:54.490062 140630861035328 biobert_predict.py:511] Writing prediction 500000
+INFO:tensorflow:Writing prediction 505000
+I0611 03:18:12.755634 140630861035328 biobert_predict.py:511] Writing prediction 505000
+INFO:tensorflow:Writing prediction 510000
+I0611 03:23:34.625121 140630861035328 biobert_predict.py:511] Writing prediction 510000
+INFO:tensorflow:Writing prediction 515000
+I0611 03:28:52.201955 140630861035328 biobert_predict.py:511] Writing prediction 515000
+INFO:tensorflow:Writing prediction 520000
+I0611 03:34:19.188768 140630861035328 biobert_predict.py:511] Writing prediction 520000
+INFO:tensorflow:Writing prediction 525000
+I0611 03:39:38.473612 140630861035328 biobert_predict.py:511] Writing prediction 525000
+INFO:tensorflow:Writing prediction 530000
+I0611 03:44:56.025975 140630861035328 biobert_predict.py:511] Writing prediction 530000
+INFO:tensorflow:Writing prediction 535000
+I0611 03:50:13.634470 140630861035328 biobert_predict.py:511] Writing prediction 535000
+INFO:tensorflow:Writing prediction 540000
+I0611 03:55:33.467802 140630861035328 biobert_predict.py:511] Writing prediction 540000
+INFO:tensorflow:Writing prediction 545000
+I0611 04:00:51.883538 140630861035328 biobert_predict.py:511] Writing prediction 545000
+INFO:tensorflow:Writing prediction 550000
+I0611 04:06:14.721790 140630861035328 biobert_predict.py:511] Writing prediction 550000
+INFO:tensorflow:Writing prediction 555000
+I0611 04:11:38.206683 140630861035328 biobert_predict.py:511] Writing prediction 555000
+INFO:tensorflow:Writing prediction 560000
+I0611 04:16:58.949516 140630861035328 biobert_predict.py:511] Writing prediction 560000
+INFO:tensorflow:Writing prediction 565000
+I0611 04:22:17.925895 140630861035328 biobert_predict.py:511] Writing prediction 565000
+INFO:tensorflow:Writing prediction 570000
+I0611 04:27:37.097791 140630861035328 biobert_predict.py:511] Writing prediction 570000
+INFO:tensorflow:Writing prediction 575000
+I0611 04:32:59.961397 140630861035328 biobert_predict.py:511] Writing prediction 575000
+INFO:tensorflow:Writing prediction 580000
+I0611 04:38:16.846935 140630861035328 biobert_predict.py:511] Writing prediction 580000
+INFO:tensorflow:Writing prediction 585000
+I0611 04:43:37.379631 140630861035328 biobert_predict.py:511] Writing prediction 585000
+INFO:tensorflow:Writing prediction 590000
+I0611 04:48:54.673665 140630861035328 biobert_predict.py:511] Writing prediction 590000
+INFO:tensorflow:Writing prediction 595000
+I0611 04:54:15.558436 140630861035328 biobert_predict.py:511] Writing prediction 595000
+INFO:tensorflow:Writing prediction 600000
+I0611 04:59:34.230332 140630861035328 biobert_predict.py:511] Writing prediction 600000
+INFO:tensorflow:Writing prediction 605000
+I0611 05:04:55.210942 140630861035328 biobert_predict.py:511] Writing prediction 605000
+INFO:tensorflow:Writing prediction 610000
+I0611 05:10:13.158011 140630861035328 biobert_predict.py:511] Writing prediction 610000
+INFO:tensorflow:Writing prediction 615000
+I0611 05:15:33.406009 140630861035328 biobert_predict.py:511] Writing prediction 615000
+INFO:tensorflow:Writing prediction 620000
+I0611 05:20:51.233794 140630861035328 biobert_predict.py:511] Writing prediction 620000
+INFO:tensorflow:Writing prediction 625000
+I0611 05:26:15.178218 140630861035328 biobert_predict.py:511] Writing prediction 625000
+INFO:tensorflow:Writing prediction 630000
+I0611 05:31:39.557301 140630861035328 biobert_predict.py:511] Writing prediction 630000
+INFO:tensorflow:Writing prediction 635000
+I0611 05:37:03.427232 140630861035328 biobert_predict.py:511] Writing prediction 635000
+INFO:tensorflow:Writing prediction 640000
+I0611 05:42:23.134825 140630861035328 biobert_predict.py:511] Writing prediction 640000
+INFO:tensorflow:Writing prediction 645000
+I0611 05:47:40.769582 140630861035328 biobert_predict.py:511] Writing prediction 645000
+INFO:tensorflow:Writing prediction 650000
+I0611 05:53:03.706970 140630861035328 biobert_predict.py:511] Writing prediction 650000
+INFO:tensorflow:Writing prediction 655000
+I0611 05:58:21.391457 140630861035328 biobert_predict.py:511] Writing prediction 655000
+INFO:tensorflow:Writing prediction 660000
+I0611 06:03:39.653295 140630861035328 biobert_predict.py:511] Writing prediction 660000
+INFO:tensorflow:Writing prediction 665000
+I0611 06:08:57.693450 140630861035328 biobert_predict.py:511] Writing prediction 665000
+INFO:tensorflow:Writing prediction 670000
+I0611 06:14:17.669052 140630861035328 biobert_predict.py:511] Writing prediction 670000
+INFO:tensorflow:Writing prediction 675000
+I0611 06:19:35.544327 140630861035328 biobert_predict.py:511] Writing prediction 675000
+INFO:tensorflow:Writing prediction 680000
+I0611 06:24:54.897465 140630861035328 biobert_predict.py:511] Writing prediction 680000
+INFO:tensorflow:Writing prediction 685000
+I0611 06:30:12.831319 140630861035328 biobert_predict.py:511] Writing prediction 685000
+INFO:tensorflow:Writing prediction 690000
+I0611 06:35:35.487537 140630861035328 biobert_predict.py:511] Writing prediction 690000
+INFO:tensorflow:Writing prediction 695000
+I0611 06:40:53.116729 140630861035328 biobert_predict.py:511] Writing prediction 695000
+INFO:tensorflow:Writing prediction 700000
+I0611 06:46:11.691026 140630861035328 biobert_predict.py:511] Writing prediction 700000
+INFO:tensorflow:Writing prediction 705000
+I0611 06:51:34.911487 140630861035328 biobert_predict.py:511] Writing prediction 705000
+INFO:tensorflow:Writing prediction 710000
+I0611 06:56:54.132641 140630861035328 biobert_predict.py:511] Writing prediction 710000
+INFO:tensorflow:Writing prediction 715000
+I0611 07:02:12.228952 140630861035328 biobert_predict.py:511] Writing prediction 715000
+INFO:tensorflow:Writing prediction 720000
+I0611 07:07:29.799149 140630861035328 biobert_predict.py:511] Writing prediction 720000
+INFO:tensorflow:Writing prediction 725000
+I0611 07:12:53.226370 140630861035328 biobert_predict.py:511] Writing prediction 725000
+INFO:tensorflow:Writing prediction 730000
+I0611 07:18:11.834422 140630861035328 biobert_predict.py:511] Writing prediction 730000
+INFO:tensorflow:Writing prediction 735000
+I0611 07:23:32.526322 140630861035328 biobert_predict.py:511] Writing prediction 735000
+INFO:tensorflow:Writing prediction 740000
+I0611 07:28:51.371295 140630861035328 biobert_predict.py:511] Writing prediction 740000
+INFO:tensorflow:Writing prediction 745000
+I0611 07:34:13.857608 140630861035328 biobert_predict.py:511] Writing prediction 745000
+INFO:tensorflow:Writing prediction 750000
+I0611 07:39:32.715588 140630861035328 biobert_predict.py:511] Writing prediction 750000
+INFO:tensorflow:Writing prediction 755000
+I0611 07:44:54.047823 140630861035328 biobert_predict.py:511] Writing prediction 755000
+INFO:tensorflow:Writing prediction 760000
+I0611 07:50:12.019137 140630861035328 biobert_predict.py:511] Writing prediction 760000
+INFO:tensorflow:Writing prediction 765000
+I0611 07:55:32.144736 140630861035328 biobert_predict.py:511] Writing prediction 765000
+INFO:tensorflow:Writing prediction 770000
+I0611 08:00:50.212144 140630861035328 biobert_predict.py:511] Writing prediction 770000
+INFO:tensorflow:Writing prediction 775000
+I0611 08:06:13.150498 140630861035328 biobert_predict.py:511] Writing prediction 775000
+INFO:tensorflow:Writing prediction 780000
+I0611 08:11:34.187275 140630861035328 biobert_predict.py:511] Writing prediction 780000
+INFO:tensorflow:Writing prediction 785000
+I0611 08:16:51.845087 140630861035328 biobert_predict.py:511] Writing prediction 785000
+INFO:tensorflow:Writing prediction 790000
+I0611 08:22:12.891379 140630861035328 biobert_predict.py:511] Writing prediction 790000
+INFO:tensorflow:Writing prediction 795000
+I0611 08:27:30.270236 140630861035328 biobert_predict.py:511] Writing prediction 795000
+INFO:tensorflow:Writing prediction 800000
+I0611 08:32:51.100268 140630861035328 biobert_predict.py:511] Writing prediction 800000
+INFO:tensorflow:Writing prediction 805000
+I0611 08:38:09.038145 140630861035328 biobert_predict.py:511] Writing prediction 805000
+INFO:tensorflow:Writing prediction 810000
+I0611 08:43:29.051668 140630861035328 biobert_predict.py:511] Writing prediction 810000
+INFO:tensorflow:Writing prediction 815000
+I0611 08:48:46.483991 140630861035328 biobert_predict.py:511] Writing prediction 815000
+INFO:tensorflow:Writing prediction 820000
+I0611 08:54:08.936452 140630861035328 biobert_predict.py:511] Writing prediction 820000
+INFO:tensorflow:Writing prediction 825000
+I0611 08:59:26.016781 140630861035328 biobert_predict.py:511] Writing prediction 825000
+INFO:tensorflow:Writing prediction 830000
+I0611 09:04:49.351094 140630861035328 biobert_predict.py:511] Writing prediction 830000
+INFO:tensorflow:Writing prediction 835000
+I0611 09:10:09.036152 140630861035328 biobert_predict.py:511] Writing prediction 835000
+INFO:tensorflow:Writing prediction 840000
+I0611 09:15:31.262260 140630861035328 biobert_predict.py:511] Writing prediction 840000
+INFO:tensorflow:Writing prediction 845000
+I0611 09:20:49.926497 140630861035328 biobert_predict.py:511] Writing prediction 845000
+INFO:tensorflow:Writing prediction 850000
+I0611 09:26:15.032306 140630861035328 biobert_predict.py:511] Writing prediction 850000
+INFO:tensorflow:Writing prediction 855000
+I0611 09:31:32.945570 140630861035328 biobert_predict.py:511] Writing prediction 855000
+INFO:tensorflow:Writing prediction 860000
+I0611 09:37:01.657286 140630861035328 biobert_predict.py:511] Writing prediction 860000
+INFO:tensorflow:Writing prediction 865000
+I0611 09:42:25.437543 140630861035328 biobert_predict.py:511] Writing prediction 865000
+INFO:tensorflow:Writing prediction 870000
+I0611 09:47:43.269082 140630861035328 biobert_predict.py:511] Writing prediction 870000
+INFO:tensorflow:Writing prediction 875000
+I0611 09:53:08.904946 140630861035328 biobert_predict.py:511] Writing prediction 875000
+INFO:tensorflow:Writing prediction 880000
+I0611 09:58:30.122065 140630861035328 biobert_predict.py:511] Writing prediction 880000
+INFO:tensorflow:Writing prediction 885000
+I0611 10:03:58.365959 140630861035328 biobert_predict.py:511] Writing prediction 885000
+INFO:tensorflow:Writing prediction 890000
+I0611 10:09:17.860636 140630861035328 biobert_predict.py:511] Writing prediction 890000
+INFO:tensorflow:Writing prediction 895000
+I0611 10:14:37.747443 140630861035328 biobert_predict.py:511] Writing prediction 895000
+INFO:tensorflow:Writing prediction 900000
+I0611 10:19:57.897747 140630861035328 biobert_predict.py:511] Writing prediction 900000
+INFO:tensorflow:Writing prediction 905000
+I0611 10:25:23.826612 140630861035328 biobert_predict.py:511] Writing prediction 905000
+INFO:tensorflow:Writing prediction 910000
+I0611 10:30:44.372243 140630861035328 biobert_predict.py:511] Writing prediction 910000
+INFO:tensorflow:Writing prediction 915000
+I0611 10:36:10.218198 140630861035328 biobert_predict.py:511] Writing prediction 915000
+INFO:tensorflow:Writing prediction 920000
+I0611 10:41:34.189992 140630861035328 biobert_predict.py:511] Writing prediction 920000
+INFO:tensorflow:Writing prediction 925000
+I0611 10:46:56.011677 140630861035328 biobert_predict.py:511] Writing prediction 925000
+INFO:tensorflow:Writing prediction 930000
+I0611 10:52:21.826306 140630861035328 biobert_predict.py:511] Writing prediction 930000
+INFO:tensorflow:Writing prediction 935000
+I0611 10:57:43.334549 140630861035328 biobert_predict.py:511] Writing prediction 935000
+INFO:tensorflow:Writing prediction 940000
+I0611 11:03:07.418076 140630861035328 biobert_predict.py:511] Writing prediction 940000
+INFO:tensorflow:Writing prediction 945000
+I0611 11:08:28.754643 140630861035328 biobert_predict.py:511] Writing prediction 945000
+INFO:tensorflow:Writing prediction 950000
+I0611 11:13:57.385900 140630861035328 biobert_predict.py:511] Writing prediction 950000
+INFO:tensorflow:Writing prediction 955000
+I0611 11:19:17.534272 140630861035328 biobert_predict.py:511] Writing prediction 955000
+INFO:tensorflow:Writing prediction 960000
+I0611 11:24:37.552375 140630861035328 biobert_predict.py:511] Writing prediction 960000
+INFO:tensorflow:Writing prediction 965000
+I0611 11:29:58.695085 140630861035328 biobert_predict.py:511] Writing prediction 965000
+INFO:tensorflow:prediction_loop marked as finished
+I0611 11:32:28.974072 140630861035328 error_handling.py:101] prediction_loop marked as finished
+Traceback (most recent call last):
+  File "biobert_predict.py", line 519, in <module>
+    tf.app.run()
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "biobert_predict.py", line 509, in main
+    for pidx, (prediction, slen) in enumerate(zip(result, sent_lengths)):
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 3072, in predict
+    yield_single_examples=yield_single_examples):
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 640, in predict
+    preds_evaluated = mon_sess.run(predictions)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 754, in run
+    run_metadata=run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1259, in run
+    run_metadata=run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1345, in run
+    return self._sess.run(*args, **kwargs)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1418, in run
+    run_metadata=run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1176, in run
+    return self._sess.run(*args, **kwargs)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
+    run_metadata_ptr)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1359, in _do_run
+    run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
+    return fn(*args)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt
+BB for GO_MF-spans
+mkdir: cannot create directory ‘../data/biobert/GO_MF-spans’: File exists
+Traceback (most recent call last):
+  File "biobert_predict.py", line 12, in <module>
+    import tensorflow as tf
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow/__init__.py", line 99, in <module>
+    from tensorflow_core import *
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/__init__.py", line 28, in <module>
+    from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
+  File "<frozen importlib._bootstrap>", line 1007, in _handle_fromlist
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow/__init__.py", line 50, in __getattr__
+    module = self._load()
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow/__init__.py", line 44, in _load
+    module = _importlib.import_module(self.__name__)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/__init__.py", line 73, in <module>
+    from tensorflow.python.ops.standard_ops import *
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/standard_ops.py", line 25, in <module>
+    from tensorflow.python import autograph
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/__init__.py", line 35, in <module>
+    from tensorflow.python.autograph import operators
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/__init__.py", line 35, in <module>
+    from tensorflow.python.autograph import operators
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/operators/__init__.py", line 40, in <module>
+    from tensorflow.python.autograph.operators.control_flow import for_stmt
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/operators/control_flow.py", line 65, in <module>
+    from tensorflow.python.autograph.operators import py_builtins
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/operators/py_builtins.py", line 30, in <module>
+    from tensorflow.python.data.ops import dataset_ops
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/data/__init__.py", line 25, in <module>
+    from tensorflow.python.data import experimental
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/data/experimental/__init__.py", line 89, in <module>
+    from tensorflow.python.data.experimental.ops.batching import dense_to_sparse_batch
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/data/experimental/ops/batching.py", line 20, in <module>
+    from tensorflow.python.data.ops import dataset_ops
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/data/ops/dataset_ops.py", line 39, in <module>
+    from tensorflow.python.data.ops import iterator_ops
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/data/ops/iterator_ops.py", line 35, in <module>
+    from tensorflow.python.training.saver import BaseSaverBuilder
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 764, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+KeyboardInterrupt
+BB for PR-ids
+mkdir: cannot create directory ‘../data/biobert/PR-ids’: File exists
+WARNING:tensorflow:From biobert_predict.py:519: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0611 11:32:33.507984 140456480655168 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0611 11:32:33.508148 140456480655168 module_wrapper.py:139] From biobert_predict.py:416: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+W0611 11:32:33.509171 140456480655168 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:92: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0611 11:32:33.509850 140456480655168 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fbcf0ee5c80>) includes params argument, but params are not passed to Estimator.
+W0611 11:32:34.188430 140456480655168 estimator.py:1994] Estimator's model_fn (<function model_fn_builder.<locals>.model_fn at 0x7fbcf0ee5c80>) includes params argument, but params are not passed to Estimator.
+INFO:tensorflow:Using config: {'_model_dir': 'models/PR-ids', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fbceda3f0b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+I0611 11:32:34.192120 140456480655168 estimator.py:212] Using config: {'_model_dir': 'models/PR-ids', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': None, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7fbceda3f0b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1, '_tpu_config': TPUConfig(iterations_per_loop=1000, num_shards=8, num_cores_per_replica=None, per_host_input_for_training=3, tpu_job_name=None, initial_infeed_sleep_secs=None, input_partition_dims=None, eval_training_input_configuration=2, experimental_host_call_every_n_steps=1), '_cluster': None}
+INFO:tensorflow:_TPUContext: eval_on_tpu True
+I0611 11:32:34.194116 140456480655168 tpu_context.py:220] _TPUContext: eval_on_tpu True
+WARNING:tensorflow:eval_on_tpu ignored because use_tpu is False.
+W0611 11:32:34.195271 140456480655168 tpu_context.py:222] eval_on_tpu ignored because use_tpu is False.
+WARNING:tensorflow:From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+W0611 11:32:34.199740 140456480655168 module_wrapper.py:139] From biobert_predict.py:305: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+WARNING:tensorflow:From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0611 11:32:42.867286 140456480655168 module_wrapper.py:139] From biobert_predict.py:504: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:Serializing predictions...
+I0611 11:32:42.868393 140456480655168 biobert_predict.py:504] Serializing predictions...
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+W0611 11:32:42.892733 140456480655168 deprecation.py:506] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+WARNING:tensorflow:From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+W0611 11:32:42.921932 140456480655168 deprecation.py:323] From biobert_predict.py:329: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+W0611 11:32:42.922138 140456480655168 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+W0611 11:32:43.000760 140456480655168 module_wrapper.py:139] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+W0611 11:32:43.099599 140456480655168 deprecation.py:323] From biobert_predict.py:316: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Calling model_fn.
+I0611 11:32:43.114813 140456480655168 estimator.py:1148] Calling model_fn.
+INFO:tensorflow:Running infer on CPU
+I0611 11:32:43.115002 140456480655168 tpu_estimator.py:3124] Running infer on CPU
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0611 11:32:43.118319 140456480655168 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:172: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0611 11:32:43.119707 140456480655168 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:411: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+W0611 11:32:43.146632 140456480655168 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:492: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+W0611 11:32:43.194890 140456480655168 deprecation.py:323] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:673: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+W0611 11:32:43.196130 140456480655168 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:187: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+W0611 11:32:43.280781 140456480655168 module_wrapper.py:139] From /home/joseph/workspace/covid/covid_oger_bb_pa/biobert/modeling.py:277: The name tf.erf is deprecated. Please use tf.math.erf instead.
+
+WARNING:tensorflow:From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W0611 11:32:44.774518 140456480655168 module_wrapper.py:139] From biobert_predict.py:392: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+W0611 11:32:44.779297 140456480655168 module_wrapper.py:139] From biobert_predict.py:403: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+INFO:tensorflow:Done calling model_fn.
+I0611 11:32:45.288768 140456480655168 estimator.py:1150] Done calling model_fn.
+WARNING:tensorflow:From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0611 11:32:45.417022 140456480655168 deprecation.py:323] From /home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/ops/array_ops.py:1475: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO:tensorflow:Graph was finalized.
+I0611 11:32:45.693011 140456480655168 monitored_session.py:240] Graph was finalized.
+2021-06-11 11:32:45.693452: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2021-06-11 11:32:45.725018: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2021-06-11 11:32:45.728903: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x563d828b5050 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-11 11:32:45.728970: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-11 11:32:45.734198: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-06-11 11:32:45.734244: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-06-11 11:32:45.734290: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lamone): /proc/driver/nvidia/version does not exist
+INFO:tensorflow:Restoring parameters from models/PR-ids/model.ckpt-52720
+I0611 11:32:45.739549 140456480655168 saver.py:1284] Restoring parameters from models/PR-ids/model.ckpt-52720
+INFO:tensorflow:Running local_init_op.
+I0611 11:32:47.921453 140456480655168 session_manager.py:500] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I0611 11:32:47.991350 140456480655168 session_manager.py:502] Done running local_init_op.
+INFO:tensorflow:Writing prediction 0
+I0611 11:32:49.356681 140456480655168 biobert_predict.py:511] Writing prediction 0
+INFO:tensorflow:prediction_loop marked as finished
+I0611 11:32:53.166604 140456480655168 error_handling.py:101] prediction_loop marked as finished
+Traceback (most recent call last):
+  File "biobert_predict.py", line 519, in <module>
+    tf.app.run()
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "biobert_predict.py", line 509, in main
+    for pidx, (prediction, slen) in enumerate(zip(result, sent_lengths)):
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_estimator/python/estimator/tpu/tpu_estimator.py", line 3072, in predict
+    yield_single_examples=yield_single_examples):
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 640, in predict
+    preds_evaluated = mon_sess.run(predictions)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 754, in run
+    run_metadata=run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1259, in run
+    run_metadata=run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1345, in run
+    return self._sess.run(*args, **kwargs)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1418, in run
+    run_metadata=run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/training/monitored_session.py", line 1176, in run
+    return self._sess.run(*args, **kwargs)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 956, in run
+    run_metadata_ptr)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1180, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1359, in _do_run
+    run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1365, in _do_call
+    return fn(*args)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1350, in _run_fn
+    target_list, run_metadata)
+  File "/home/joseph/miniconda3/envs/ogerbb/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1443, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt

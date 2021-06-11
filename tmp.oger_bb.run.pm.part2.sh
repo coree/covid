@@ -1,12 +1,12 @@
-
+#!/bin/bash
 #################
 # 2: RUNNING OGER
 #################
 
-# JOSEPH'S NOTE: there is no vocab folder in './oger/' you have to get the 
-#               'vocab/' folder first here I just downloaded the 'vocab/' folder
-#               from Lenz located at: 
-#               /srv/scratch1/furrer/OGER+BioBERT-inference/oger
+# ! JOSEPH'S NOTE: there is no vocab folder in './oger/' you have to get the 
+# !               'vocab/' folder first here I just downloaded the 'vocab/' folder
+# !               from Lenz located at: 
+# !               /srv/scratch1/furrer/OGER+BioBERT-inference/oger
 
 
 home=$(pwd) # added by JOSEPH
@@ -32,7 +32,7 @@ done
 # echo ''
 # done
 
-# JOSEPH'S NOTE: there fist time you run the code this will throw errors
+# ! JOSEPH'S NOTE: there fist time you run the code this will throw errors
 
 # 2: data housekeeping
 cp ../data/oger/CHEBI/*.bioc_j  collection.bioc_json # this file is necessary for later merge
