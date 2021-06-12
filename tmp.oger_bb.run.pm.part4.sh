@@ -9,12 +9,26 @@ cd $home
 unset vocabularies
 declare -A vocabularies=( [CHEBI]=spans-first [CL]=spans-first [GO_BP]=spans-first [GO_CC]=spans-first [GO_MF]=spans-first [MOP]=spans-first [NCBITaxon]=ids-first [PR]=spans-only [SO]=spans-first [UBERON]=spans-first )
 
-#zsh style arrays
-for v k in ${(kv)vocabularies}
+#? JOSEPH bash style arraries
+for v in "${!vocabularies[@]}"
 do
-echo '4: Harmonising' $v
-python harmonise.py -t data/harmonised/$v.conll -o data/oger/$v.conll -b data/biobert.tokens -i data/biobert/$v-ids.labels -s data/biobert/$v-spans.labels -m $k
+    k=${vocabularies[$v]}
+    echo '4: Harmonising' $v
+    python harmonise.py -t data/harmonised/$v.conll -o data/oger/$v.conll -b data/biobert.tokens -i data/biobert/$v-ids.labels -s data/biobert/$v-spans.labels -m $k
 done
+
+
+#zsh style arrays
+# for v k in ${(kv)vocabularies}
+# do
+# echo '4: Harmonising' $v
+# python harmonise.py -t data/harmonised/$v.conll -o data/oger/$v.conll -b data/biobert.tokens -i data/biobert/$v-ids.labels -s data/biobert/$v-spans.labels -m $k
+# done
+
+
+
+
+# pmc
 
 # for v k in ${(kv)vocabularies}
 # do

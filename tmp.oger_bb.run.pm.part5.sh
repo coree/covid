@@ -15,12 +15,12 @@ oger run -s oger-settings-pubannotation.ini
 mv ../data/merged/collection.json ../data/merged/collection.pubannotation.json
 mv ../data/merged/collection.tgz ../data/merged/collection.pubannotation.tgz
 
-# JOSEPH NOTE'S: is this pmc related ???
-oger run -s oger-settings-eupmc.ini
-mv merged-eupmc/collection.conll ../data/merged/collection.europmc.conll
-mv merged-eupmc/collection.json ../data/merged/collection.europmc.json
-mv merged-eupmc/collection.zip ../data/merged/collection.europmc.zip
-rm -r merged-eupmc
+# ? JOSEPH NOTE'S: we only want pubmed here...
+# oger run -s oger-settings-eupmc.ini
+# mv merged-eupmc/collection.conll ../data/merged/collection.europmc.conll
+# mv merged-eupmc/collection.json ../data/merged/collection.europmc.json
+# mv merged-eupmc/collection.zip ../data/merged/collection.europmc.zip
+# rm -r merged-eupmc
 
 # # PMC
 # cp ../data/harmonised_pmc/CHEBI.conll collection_pmc.conll

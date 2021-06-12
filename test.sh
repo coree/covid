@@ -1,17 +1,14 @@
 #!/bin/bash
 
 # pwd = biobert
-declare -A vocabularies=( [CHEBI]=52715 [CL]=52714 [GO_BP]=52715 [GO_CC]=52712 [GO_MF]=52710 [MOP]=52710 [NCBITaxon]=52710 [PR]=52720 [SO]=52714 [UBERON]=52717 )
+cd $home
+unset vocabularies
+declare -A vocabularies=( [CHEBI]=spans-first [CL]=spans-first [GO_BP]=spans-first [GO_CC]=spans-first [GO_MF]=spans-first [MOP]=spans-first [NCBITaxon]=ids-first [PR]=spans-only [SO]=spans-first [UBERON]=spans-first )
 
-for v in "${!vocabularies[@]}"
+for k in "${!vocabularies[@]}"
 do
-
-for s in ids spans
-do
-
-echo "v: " $v
-echo "s: " $s
-
+    v=${vocabularies[$k]}
+    echo "K: " $k
+    echo "V: " $v
 
 done
-done 
